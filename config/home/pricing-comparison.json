@@ -1,0 +1,25 @@
+{
+  "header": {
+    "badge": "Best Value",
+    "title": "Compare",
+    "accent": "Pricing",
+    "description": "Same premium hardware — pay a fraction of what other hosts charge per GB."
+  },
+  "unit": "/GB per month",
+  "featured": {
+    "name": "Caspian Host",
+    "price": 25,
+    "currency": "₹",
+    "badge": "Lowest price"
+  },
+  "competitors": [
+    { "name": "Shockbyte Hosting", "price": 250 },
+    { "name": "Bisect Hosting", "price": 280 },
+    { "name": "Apex Hosting", "price": 330 }
+  ],
+  "cta": {
+    "text": "View Minecraft plans",
+    "href": "/game-hosting/minecraft-java"
+  },
+  "footnote": "* Prices are per GB RAM / month. Subject to change. Last updated: May 2026"
+}

@@ -1,0 +1,496 @@
+{
+  "cpuModels": [
+    {
+      "id": "epyc-7513",
+      "name": "AMD EPYC 7513",
+      "tier": "India Budget",
+      "description": "Enterprise · high core count"
+    },
+    {
+      "id": "epyc-9474f",
+      "name": "AMD EPYC 9474F",
+      "tier": "India Advance",
+      "description": "High frequency EPYC"
+    },
+    {
+      "id": "ryzen-5800x",
+      "name": "Ryzen 7 5800X",
+      "tier": "India Premium",
+      "description": "8 cores · strong single-thread"
+    },
+    {
+      "id": "ryzen-7900x",
+      "name": "Ryzen 9 7900X",
+      "tier": "India Ultra",
+      "description": "Zen 4 · peak gaming clocks"
+    },
+    {
+      "id": "i7-7700k",
+      "name": "Intel Core i7-7700K",
+      "tier": "Singapore Premium",
+      "description": "4 cores · 8 threads · high clocks"
+    }
+  ],
+  "plansByCpu": {
+    "epyc-7513": [
+      {
+        "id": "epyc-7513-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 20,
+        "price": 50,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-7513/1gb"
+      },
+      {
+        "id": "epyc-7513-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 100,
+        "ram": 2,
+        "nvme": 40,
+        "price": 100,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-7513/2gb"
+      },
+      {
+        "id": "epyc-7513-3gb",
+        "name": "3GB Plan",
+        "cpuPercent": 200,
+        "ram": 3,
+        "nvme": 60,
+        "price": 150,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-7513/3gb"
+      },
+      {
+        "id": "epyc-7513-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 80,
+        "price": 200,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-7513/4gb"
+      },
+      {
+        "id": "epyc-7513-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 120,
+        "price": 300,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-7513/6gb"
+      },
+      {
+        "id": "epyc-7513-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 200,
+        "ram": 8,
+        "nvme": 160,
+        "price": 400,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-7513/8gb"
+      },
+      {
+        "id": "epyc-7513-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 200,
+        "ram": 12,
+        "nvme": 240,
+        "price": 600,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-7513/12gb"
+      },
+      {
+        "id": "epyc-7513-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 200,
+        "ram": 16,
+        "nvme": 320,
+        "price": 800,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-7513/16gb"
+      },
+      {
+        "id": "epyc-7513-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 200,
+        "ram": 24,
+        "nvme": 480,
+        "price": 1200,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-7513/24gb"
+      }
+    ],
+    "epyc-9474f": [
+      {
+        "id": "epyc-9474f-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 20,
+        "price": 65,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-9474f/1gb"
+      },
+      {
+        "id": "epyc-9474f-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 100,
+        "ram": 2,
+        "nvme": 40,
+        "price": 130,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-9474f/2gb"
+      },
+      {
+        "id": "epyc-9474f-3gb",
+        "name": "3GB Plan",
+        "cpuPercent": 200,
+        "ram": 3,
+        "nvme": 60,
+        "price": 195,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-9474f/3gb"
+      },
+      {
+        "id": "epyc-9474f-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 80,
+        "price": 260,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-9474f/4gb"
+      },
+      {
+        "id": "epyc-9474f-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 150,
+        "ram": 6,
+        "nvme": 120,
+        "price": 390,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-9474f/6gb"
+      },
+      {
+        "id": "epyc-9474f-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 200,
+        "ram": 8,
+        "nvme": 160,
+        "price": 520,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-9474f/8gb"
+      },
+      {
+        "id": "epyc-9474f-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 200,
+        "ram": 12,
+        "nvme": 240,
+        "price": 780,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-9474f/12gb"
+      },
+      {
+        "id": "epyc-9474f-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 200,
+        "ram": 16,
+        "nvme": 320,
+        "price": 1040,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-9474f/16gb"
+      },
+      {
+        "id": "epyc-9474f-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 200,
+        "ram": 24,
+        "nvme": 480,
+        "price": 1560,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/epyc-9474f/24gb"
+      }
+    ],
+    "ryzen-5800x": [
+      {
+        "id": "ryzen-5800x-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 20,
+        "price": 80,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-5800x/1gb"
+      },
+      {
+        "id": "ryzen-5800x-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 100,
+        "ram": 2,
+        "nvme": 40,
+        "price": 160,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-5800x/2gb"
+      },
+      {
+        "id": "ryzen-5800x-3gb",
+        "name": "3GB Plan",
+        "cpuPercent": 200,
+        "ram": 3,
+        "nvme": 60,
+        "price": 240,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-5800x/3gb"
+      },
+      {
+        "id": "ryzen-5800x-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 80,
+        "price": 320,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-5800x/4gb"
+      },
+      {
+        "id": "ryzen-5800x-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 120,
+        "price": 480,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-5800x/6gb"
+      },
+      {
+        "id": "ryzen-5800x-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 200,
+        "ram": 8,
+        "nvme": 160,
+        "price": 640,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-5800x/8gb"
+      },
+      {
+        "id": "ryzen-5800x-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 200,
+        "ram": 12,
+        "nvme": 240,
+        "price": 960,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-5800x/12gb"
+      },
+      {
+        "id": "ryzen-5800x-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 300,
+        "ram": 16,
+        "nvme": 320,
+        "price": 1280,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-5800x/16gb"
+      },
+      {
+        "id": "ryzen-5800x-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 300,
+        "ram": 24,
+        "nvme": 480,
+        "price": 1920,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-5800x/24gb"
+      }
+    ],
+    "ryzen-7900x": [
+      {
+        "id": "ryzen-7900x-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 20,
+        "price": 110,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-7900x/1gb"
+      },
+      {
+        "id": "ryzen-7900x-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 100,
+        "ram": 2,
+        "nvme": 40,
+        "price": 220,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-7900x/2gb"
+      },
+      {
+        "id": "ryzen-7900x-3gb",
+        "name": "3GB Plan",
+        "cpuPercent": 200,
+        "ram": 3,
+        "nvme": 60,
+        "price": 330,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-7900x/3gb"
+      },
+      {
+        "id": "ryzen-7900x-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 80,
+        "price": 440,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-7900x/4gb"
+      },
+      {
+        "id": "ryzen-7900x-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 120,
+        "price": 660,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-7900x/6gb"
+      },
+      {
+        "id": "ryzen-7900x-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 200,
+        "ram": 8,
+        "nvme": 160,
+        "price": 880,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-7900x/8gb"
+      },
+      {
+        "id": "ryzen-7900x-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 300,
+        "ram": 12,
+        "nvme": 240,
+        "price": 1320,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-7900x/12gb"
+      },
+      {
+        "id": "ryzen-7900x-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 320,
+        "price": 1760,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-7900x/16gb"
+      },
+      {
+        "id": "ryzen-7900x-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 480,
+        "price": 2640,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/ryzen-7900x/24gb"
+      }
+    ],
+    "i7-7700k": [
+      {
+        "id": "i7-7700k-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 20,
+        "price": 45,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/i7-7700k/1gb"
+      },
+      {
+        "id": "i7-7700k-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 100,
+        "ram": 2,
+        "nvme": 40,
+        "price": 90,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/i7-7700k/2gb"
+      },
+      {
+        "id": "i7-7700k-3gb",
+        "name": "3GB Plan",
+        "cpuPercent": 200,
+        "ram": 3,
+        "nvme": 60,
+        "price": 135,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/i7-7700k/3gb"
+      },
+      {
+        "id": "i7-7700k-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 80,
+        "price": 180,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/i7-7700k/4gb"
+      },
+      {
+        "id": "i7-7700k-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 120,
+        "price": 270,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/i7-7700k/6gb"
+      },
+      {
+        "id": "i7-7700k-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 200,
+        "ram": 8,
+        "nvme": 160,
+        "price": 360,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/i7-7700k/8gb"
+      },
+      {
+        "id": "i7-7700k-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 200,
+        "ram": 12,
+        "nvme": 240,
+        "price": 540,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/i7-7700k/12gb"
+      },
+      {
+        "id": "i7-7700k-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 200,
+        "ram": 16,
+        "nvme": 320,
+        "price": 720,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/i7-7700k/16gb"
+      },
+      {
+        "id": "i7-7700k-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 200,
+        "ram": 24,
+        "nvme": 480,
+        "price": 1080,
+        "currency": "INR",
+        "checkout": "https://billing.lunarhost.io/pocketmine/i7-7700k/24gb"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "alert": {
+    "enabled": true,
+    "bgStyle": "bg-violet-800",
+    "borderStyle": "border-b border-indigo-700/50",
+    "promo": {
+      "iconType": "fire",
+      "fullMessage": "Premium Hosting! Use Code Caspian10 for 10% OFF",
+      "textColor": "text-white"
+    },
+    "socials": {
+      "whatsapp": {
+        "enabled": true,
+        "number": "1234567890",
+        "label": "+1 234 567 890",
+        "iconColor": "text-green-400"
+      },
+      "discord": {
+        "enabled": true,
+        "url": "https://discord.gg/hxPB2z8dwG",
+        "label": "Discord",
+        "iconColor": "text-[#5865F2]"
+      }
+    }
+  },
+  "brand": {
+    "name": "Caspian Host",
+    "logoPath": "https://i.postimg.cc/tRSnYMcL/image-removebg-preview.png"
+  },
+  "navLinks": [
+    { "name": "Minecraft Hosting", "href": "/game-hosting", "dropdown": false },
+    { "name": "Game Servers", "href": "/game-hosting", "dropdown": false },
+    {
+      "name": "Other Hosting",
+      "dropdown": true,
+      "items": [
+        { "name": "Next.js Bot Hosting", "href": "/other-hosting?type=nextjs" },
+        { "name": "Python Bot Hosting", "href": "/other-hosting?type=python" },
+        { "name": "VPS Hosting (Coming Soon)", "href": "#" },
+        { "name": "Dedicated Server (Coming Soon)", "href": "#" }
+      ]
+    },
+    { "name": "Contact Us", "href": "/contact", "dropdown": false },
+    {
+      "name": "Legal",
+      "dropdown": true,
+      "items": [
+        { "name": "Terms of Service", "href": "/legal/terms-of-service" },
+        { "name": "Privacy Policy", "href": "/legal/privacy-policy" },
+        { "name": "SLA", "href": "/legal/service-level-agreement" },
+        { "name": "Refund Policy", "href": "/legal/refund-policy" },
+        { "name": "Cancellation Policy", "href": "/legal/cancellation-policy" },
+        { "name": "About Us", "href": "/legal/about-us" }
+      ]
+    }
+  ],
+  "buttons": {
+    "login": { "label": "Login", "href": "https://billing.caspian.host/login", "enabled": true },
+    "signup": { "label": "Sign Up", "href": "https://billing.caspian.host/register", "enabled": true }
+  }
+}

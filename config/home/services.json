@@ -1,0 +1,37 @@
+{
+  "header": {
+    "title": "Our",
+    "accent": "Services",
+    "description": "Tailored hosting solutions for every scale."
+  },
+  "items": [
+    {
+      "title": "Minecraft Hosting",
+      "desc": "Ultra-low latency Minecraft hosting with premium hardware and instant setup.",
+      "icon": "Shield",
+      "href": "/game-hosting",
+      "comingSoon": false
+    },
+    {
+      "title": "Game Hosting",
+      "desc": "Optimized environments for modern multiplayer titles and custom game stacks.",
+      "icon": "Gamepad2",
+      "href": "/game-hosting",
+      "comingSoon": false
+    },
+    {
+      "title": "DDoS Protected Proxy",
+      "desc": "Cloudflare Magic Transit with 500 Tbps DDoS protection for TCP + UDP traffic.",
+      "icon": "Shield",
+      "href": "/ddos-protected-proxy",
+      "comingSoon": false
+    },
+    {
+      "title": "VPS Hosting",
+      "desc": "Flexible virtual private servers with full root access and scalable resources.",
+      "icon": "Server",
+      "href": "/root-servers",
+      "comingSoon": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "speed": 70,
+  "style": {
+    "height": 45,
+    "opacity": 0.4
+  },
+  "partners": [
+    "debian.svg",
+    "cloudflare.svg",
+    "ubuntu.svg",
+    "nvidia.svg",
+    "intel.svg",
+    "docker.svg"
+  ]
+}

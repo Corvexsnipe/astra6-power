@@ -1,0 +1,20 @@
+{
+  "content": {
+    "title": "Premium Hosting",
+    "accent": "Services",
+    "description": "Elevate your community with enterprise-grade infrastructure designed for unrivaled stability and speed. Our 2 global locations ensure seamless low-latency gameplay, backed by sophisticated DDoS mitigation and 24/7 expert support.",
+    "primaryBtn": { "text": "See Plans", "href": "/game-hosting" },
+    "secondaryBtn": { "text": "Migrate Your Server", "href": "/migrate-to-us" }
+  },
+  "sections": {
+    "partners": true,
+    "features": true,
+    "services": true,
+    "locations": true,
+    "panel": true,
+    "hardware": true,
+    "faq": true,
+    "testimonials": true,
+    "cta": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Service Level Agreement (SLA)",
+  "company": "Caspian Host",
+  "lastUpdated": "23-05-2026",
+  "description": "This Service Level Agreement (“SLA”) outlines the uptime commitment, infrastructure reliability standards, support response targets, and compensation policies provided by Caspian Host for all hosting services including game servers, VPS hosting, dedicated servers, and related infrastructure services.",
+  "policies": [
+    {
+      "title": "1. Uptime Commitment",
+      "desc": "Caspian Host strives to maintain industry-level reliability and typically targets 99.99% uptime across all infrastructure and hosting services. However, due to the unpredictable nature of hosting infrastructure, external network conditions, and hardware-related incidents, we officially guarantee a minimum monthly uptime of 95% under this SLA. If the guaranteed 95% uptime level is not met during a billing cycle, eligible customers may request SLA compensation in the form of account credit according to our refund and compensation policy."
+    },
+    {
+      "title": "2. Infrastructure & Network Exceptions",
+      "desc": "While we continuously work to maintain maximum uptime and network stability, certain issues may occur unexpectedly and are considered outside reasonable operational control. These include but are not limited to: datacenter outages, upstream ISP failures, routing problems, DDoS attacks, hardware malfunctions, storage failures, software crashes, emergency maintenance, power disruptions, or network instability caused by third-party providers. Such incidents may temporarily affect service availability despite our best efforts to minimize disruption."
+    },
+    {
+      "title": "3. Scheduled Maintenance",
+      "desc": "Caspian Host may occasionally perform scheduled maintenance, security updates, hardware replacements, or infrastructure upgrades to maintain service quality and platform security. Whenever possible, customers will be notified in advance through the client area, email, Discord, or status announcements. Scheduled maintenance periods are not counted toward SLA downtime calculations."
+    },
+    {
+      "title": "4. Support Response Targets",
+      "desc": "Our technical support team aims to respond to support tickets within the following estimated timeframes: Critical service outages within 1 hour, High priority issues within 4 hours, Medium priority issues within 12 hours, and Low priority/general inquiries within 24 hours. Actual response times may vary depending on ticket complexity, abuse investigations, infrastructure incidents, and support volume."
+    },
+    {
+      "title": "5. SLA Compensation & Service Credits",
+      "desc": "If Caspian Host fails to maintain the guaranteed 95% monthly uptime, affected customers may request SLA compensation in the form of service credits added to their hosting account balance. SLA compensation is provided as account credit only and cannot be withdrawn as cash or transferred externally. Credits may be used toward future renewals, upgrades, or additional services. Compensation requests must be submitted within 7 days of the affected incident along with relevant service details."
+    },
+    {
+      "title": "6. SLA Exclusions",
+      "desc": "This SLA does not apply to downtime or service interruptions caused by customer actions, server misconfigurations, unstable plugins/mods, third-party software, abuse violations, excessive resource usage, DDoS attacks targeting customer services, force majeure events, or outages caused by external providers beyond our direct infrastructure control. Services suspended for Terms of Service violations are also excluded from SLA coverage."
+    },
+    {
+      "title": "7. Monitoring & Incident Reporting",
+      "desc": "Caspian Host continuously monitors network infrastructure, nodes, hardware systems, and service availability to maintain optimal performance and uptime. Internal monitoring systems are used to calculate uptime percentages and verify service disruptions. Customers may also independently monitor their services using external monitoring solutions."
+    },
+    {
+      "title": "8. Service Limitations",
+      "desc": "Although Caspian Host aims to deliver stable, secure, and uninterrupted hosting services, no hosting provider can guarantee 100% uninterrupted availability at all times. This SLA defines the maximum liability and compensation available in the event of qualifying downtime. Caspian Host shall not be responsible for indirect losses, revenue loss, business interruption, or damages caused by temporary service outages."
+    }
+  ]
+}

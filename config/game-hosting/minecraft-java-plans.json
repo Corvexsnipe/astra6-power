@@ -1,0 +1,998 @@
+{
+  "cpuModels": [
+    {
+      "id": "india-starter",
+      "name": "AMD EPYC 7272",
+      "tier": "India Starter",
+      "description": "Entry level · budget friendly"
+    },
+    {
+      "id": "epyc-7513",
+      "name": "AMD EPYC 7513",
+      "tier": "India Budget",
+      "description": "Enterprise · high core count"
+    },
+    {
+      "id": "epyc-9474f",
+      "name": "AMD EPYC 9474F",
+      "tier": "India Advance",
+      "description": "High frequency EPYC"
+    },
+    {
+      "id": "ryzen-5800x",
+      "name": "Ryzen 7 5800X",
+      "tier": "India Premium",
+      "description": "8 cores · strong single-thread"
+    },
+    {
+      "id": "ryzen-7900x",
+      "name": "Ryzen 9 7900X",
+      "tier": "India Ultra",
+      "description": "Zen 4 · peak gaming clocks"
+    },
+    {
+      "id": "i7-7700k",
+      "name": "Intel Core i7-7700K",
+      "tier": "Singapore Premium",
+      "description": "4 cores · 8 threads · high clocks"
+    }
+  ],
+  "plansByCpu": {
+    "india-starter": [
+      {
+        "id": "india-starter-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 2,
+        "price": 30,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/india-lite/1gb-starter-java/checkout?plan=491",
+          "threeMonths": "https://billing.caspian.host/products/india-lite/1gb-starter-java/checkout?plan=492",
+          "sixMonths": "https://billing.caspian.host/products/india-lite/1gb-starter-java/checkout?plan=493",
+          "yearly": "https://billing.caspian.host/products/india-lite/1gb-starter-java/checkout?plan=494"
+        }
+      },
+      {
+        "id": "india-starter-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 6,
+        "price": 60,
+        "currency": "INR",
+        "checkout": {
+         "monthly": "https://billing.caspian.host/products/india-lite/2gb-india-starter-mc/checkout?plan=495",
+          "threeMonths": "https://billing.caspian.host/products/india-lite/2gb-india-starter-mc/checkout?plan=496",
+          "sixMonths": "https://billing.caspian.host/products/india-lite/2gb-india-starter-mc/checkout?plan=497",
+          "yearly": "https://billing.caspian.host/products/india-lite/2gb-india-starter-mc/checkout?plan=498"
+        }
+      },
+      {
+        "id": "india-starter-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 100,
+        "ram": 4,
+        "nvme": 10,
+        "price": 120,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/india-lite/4gb-india-starter-mc/checkout?plan=499",
+          "threeMonths": "https://billing.caspian.host/products/india-lite/4gb-india-starter-mc/checkout?plan=500",
+          "sixMonths": "https://billing.caspian.host/products/india-lite/4gb-india-starter-mc/checkout?plan=501",
+          "yearly": "https://billing.caspian.host/products/india-lite/4gb-india-starter-mc/checkout?plan=502"
+        }
+      },
+      {
+        "id": "india-starter-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 14,
+        "price": 180,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/india-lite/6gb-india-starter-mc/checkout?plan=503",
+          "threeMonths": "https://billing.caspian.host/products/india-lite/6gb-india-starter-mc/checkout?plan=504",
+          "sixMonths": "https://billing.caspian.host/products/india-lite/6gb-india-starter-mc/checkout?plan=505",
+          "yearly": "https://billing.caspian.host/products/india-lite/6gb-india-starter-mc/checkout?plan=506"
+        }
+      },
+      {
+        "id": "india-starter-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 250,
+        "ram": 8,
+        "nvme": 18,
+        "price": 240,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/india-lite/8gb-india-starter-mc/checkout?plan=507",
+          "threeMonths": "https://billing.caspian.host/products/india-lite/8gb-india-starter-mc/checkout?plan=508",
+          "sixMonths": "https://billing.caspian.host/products/india-lite/8gb-india-starter-mc/checkout?plan=509",
+          "yearly": "https://billing.caspian.host/products/india-lite/8gb-india-starter-mc/checkout?plan=510"
+        }
+      },
+      {
+        "id": "india-starter-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 26,
+        "price": 360,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/india-lite/12gb-india-starter-mc/checkout?plan=511",
+          "threeMonths": "https://billing.caspian.host/products/india-lite/12gb-india-starter-mc/checkout?plan=512",
+          "sixMonths": "https://billing.caspian.host/products/india-lite/12gb-india-starter-mc/checkout?plan=513",
+          "yearly": "https://billing.caspian.host/products/india-lite/12gb-india-starter-mc/checkout?plan=514"
+        }
+      },
+      {
+        "id": "india-starter-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 34,
+        "price": 480,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/india-lite/16gb-india-starter-mc/checkout?plan=515",
+          "threeMonths": "https://billing.caspian.host/products/india-lite/16gb-india-starter-mc/checkout?plan=516",
+          "sixMonths": "https://billing.caspian.host/products/india-lite/16gb-india-starter-mc/checkout?plan=517",
+          "yearly": "https://billing.caspian.host/products/india-lite/16gb-india-starter-mc/checkout?plan=518"
+        }
+      },
+      {
+        "id": "india-starter-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 50,
+        "price": 720,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/india-lite/24gb-starter-java/checkout?plan=523",
+          "threeMonths": "https://billing.caspian.host/products/india-lite/24gb-starter-java/checkout?plan=524",
+          "sixMonths": "https://billing.caspian.host/products/india-lite/24gb-starter-java/checkout?plan=525",
+          "yearly": "https://billing.caspian.host/products/india-lite/24gb-starter-java/checkout?plan=526"
+        }
+      },
+      {
+        "id": "india-starter-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 700,
+        "ram": 32,
+        "nvme": 66,
+        "price": 960,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/india-lite/32gb-india-starter-mc/checkout?plan=519",
+          "threeMonths": "https://billing.caspian.host/products/india-lite/32gb-india-starter-mc/checkout?plan=520",
+          "sixMonths": "https://billing.caspian.host/products/india-lite/32gb-india-starter-mc/checkout?plan=521",
+          "yearly": "https://billing.caspian.host/products/india-lite/32gb-india-starter-mc/checkout?plan=522"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 0,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/tickets",
+          "threeMonths": "https://billing.caspian.host/tickets",
+          "sixMonths": "https://billing.caspian.host/tickets",
+          "yearly": "https://billing.caspian.host/tickets"
+        }
+      }
+    ],
+    "epyc-7513": [
+      {
+        "id": "epyc-7513-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 2,
+        "price": 50,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-budget-mc/1gb-budget-javaa/checkout?plan=12",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/1gb-budget-javaa/checkout?plan=53",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/1gb-budget-javaa/checkout?plan=54",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-budget-mc/1gb-budget-javaa/checkout?plan=447"
+        }
+      },
+      {
+        "id": "epyc-7513-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 10,
+        "price": 100,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-budget-mc/2gb-india-budget-mc/checkout?plan=13",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/2gb-india-budget-mc/checkout?plan=55",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/2gb-india-budget-mc/checkout?plan=56",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-budget-mc/2gb-india-budget-mc/checkout?plan=57"
+        }
+      },
+      {
+        "id": "epyc-7513-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 100,
+        "ram": 4,
+        "nvme": 14,
+        "price": 200,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-budget-mc/4gb-india-budget-mc/checkout?plan=14",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/4gb-india-budget-mc/checkout?plan=58",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/4gb-india-budget-mc/checkout?plan=59",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-budget-mc/4gb-india-budget-mc/checkout?plan=60"
+        }
+      },
+      {
+        "id": "epyc-7513-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 18,
+        "price": 300,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-budget-mc/6gb-india-budget-mc/checkout?plan=15",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/6gb-india-budget-mc/checkout?plan=61",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/6gb-india-budget-mc/checkout?plan=62",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-budget-mc/6gb-india-budget-mc/checkout?plan=63"
+        }
+      },
+      {
+        "id": "epyc-7513-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 250,
+        "ram": 8,
+        "nvme": 22,
+        "price": 400,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-budget-mc/8gb-india-budget-mc/checkout?plan=16",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/8gb-india-budget-mc/checkout?plan=64",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/8gb-india-budget-mc/checkout?plan=65",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-budget-mc/8gb-india-budget-mc/checkout?plan=66"
+        }
+      },
+      {
+        "id": "epyc-7513-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 30,
+        "price": 600,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-budget-mc/12gb-india-budget-mc/checkout?plan=17",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/12gb-india-budget-mc/checkout?plan=67",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/12gb-india-budget-mc/checkout?plan=68",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-budget-mc/12gb-india-budget-mc/checkout?plan=69"
+        }
+      },
+      {
+        "id": "epyc-7513-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 38,
+        "price": 800,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-budget-mc/16gb-india-budget-mc/checkout?plan=18",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/16gb-india-budget-mc/checkout?plan=70",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/16gb-india-budget-mc/checkout?plan=71",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-budget-mc/16gb-india-budget-mc/checkout?plan=72"
+        }
+      },
+      {
+        "id": "epyc-7513-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 54,
+        "price": 1099,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-budget-mc/264gb-advance-java/checkout?plan=19",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/264gb-advance-java/checkout?plan=73",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/264gb-advance-java/checkout?plan=74",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-budget-mc/264gb-advance-java/checkout?plan=75"
+        }
+      },
+      {
+        "id": "epyc-7513-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 700,
+        "ram": 32,
+        "nvme": 70,
+        "price": 1499,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-budget-mc/32gb-india-budget-mc/checkout?plan=21",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/32gb-india-budget-mc/checkout?plan=76",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-budget-mc/32gb-india-budget-mc/checkout?plan=77",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-budget-mc/32gb-india-budget-mc/checkout?plan=78"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 0,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/tickets",
+          "threeMonths": "https://billing.caspian.host/tickets",
+          "sixMonths": "https://billing.caspian.host/tickets",
+          "yearly": "https://billing.caspian.host/tickets"
+        }
+      }
+    ],
+    "epyc-9474f": [
+      {
+        "id": "epyc-9474f-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 3,
+        "price": 65,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-advance-mc/1gb-advance-java/checkout?plan=1",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/1gb-advance-java/checkout?plan=451",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/1gb-advance-java/checkout?plan=452",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-advance-mc/1gb-advance-java/checkout?plan=453"
+        }
+      },
+      {
+        "id": "epyc-9474f-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 12,
+        "price": 130,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-advance-mc/2gb-advance-java/checkout?plan=2",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/2gb-advance-java/checkout?plan=79",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/2gb-advance-java/checkout?plan=80",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-advance-mc/2gb-advance-java/checkout?plan=81"
+        }
+      },
+      {
+        "id": "epyc-9474f-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 16,
+        "price": 260,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-advance-mc/4gb-advance-java/checkout?plan=3",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/4gb-advance-java/checkout?plan=82",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/4gb-advance-java/checkout?plan=83",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-advance-mc/4gb-advance-java/checkout?plan=84"
+        }
+      },
+      {
+        "id": "epyc-9474f-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 250,
+        "ram": 6,
+        "nvme": 20,
+        "price": 390,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-advance-mc/6gb-advance-java/checkout?plan=5",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/6gb-advance-java/checkout?plan=85",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/6gb-advance-java/checkout?plan=86",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-advance-mc/6gb-advance-java/checkout?plan=87"
+        }
+      },
+      {
+        "id": "epyc-9474f-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 300,
+        "ram": 8,
+        "nvme": 24,
+        "price": 520,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-advance-mc/8gb-advance-java/checkout?plan=6",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/8gb-advance-java/checkout?plan=88",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/8gb-advance-java/checkout?plan=89",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-advance-mc/8gb-advance-java/checkout?plan=90"
+        }
+      },
+      {
+        "id": "epyc-9474f-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 32,
+        "price": 780,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-advance-mc/12gb-advance-java/checkout?plan=7",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/12gb-advance-java/checkout?plan=91",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/12gb-advance-java/checkout?plan=92",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-advance-mc/12gb-advance-java/checkout?plan=93"
+        }
+      },
+      {
+        "id": "epyc-9474f-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 40,
+        "price": 999,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-advance-mc/16gb-advance-java/checkout?plan=8",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/16gb-advance-java/checkout?plan=94",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/16gb-advance-java/checkout?plan=95",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-advance-mc/16gb-advance-java/checkout?plan=96"
+        }
+      },
+      {
+        "id": "epyc-9474f-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 56,
+        "price": 1499,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-advance-mc/24gb-advance-javaa-mc/checkout?plan=10",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/24gb-advance-javaa-mc/checkout?plan=97",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/24gb-advance-javaa-mc/checkout?plan=98",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-advance-mc/24gb-advance-javaa-mc/checkout?plan=99"
+        }
+      },
+      {
+        "id": "epyc-9474f-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 700,
+        "ram": 32,
+        "nvme": 72,
+        "price": 1999,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-advance-mc/32gb-advance-java/checkout?plan=11",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/32gb-advance-java/checkout?plan=100",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-advance-mc/32gb-advance-java/checkout?plan=101",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-advance-mc/32gb-advance-java/checkout?plan=102"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 0,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.lunarhost.io/minecraft-java/epyc-9474f/24gb",
+          "threeMonths": "https://billing.lunarhost.io/minecraft-java/epyc-9474f/24gb-3months",
+          "sixMonths": "https://billing.lunarhost.io/minecraft-java/epyc-9474f/24gb-6months",
+          "yearly": "https://billing.lunarhost.io/minecraft-java/epyc-9474f/24gb-yearly"
+        }
+      }
+    ],
+    "ryzen-5800x": [
+      {
+        "id": "ryzen-5800x-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 4,
+        "price": 80,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-premium/1gb-premium-java/checkout?plan=22",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-premium/1gb-premium-java/checkout?plan=448",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-premium/1gb-premium-java/checkout?plan=449",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-premium/1gb-premium-java/checkout?plan=450"
+        }
+      },
+      {
+        "id": "ryzen-5800x-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 16,
+        "price": 160,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-premium/2gb-premium-java/checkout?plan=23",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-premium/2gb-premium-java/checkout?plan=103",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-premium/2gb-premium-java/checkout?plan=104",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-premium/2gb-premium-java/checkout?plan=105"
+        }
+      },
+      {
+        "id": "ryzen-5800x-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 20,
+        "price": 320,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-premium/4gb-premium-java/checkout?plan=24",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-premium/4gb-premium-java/checkout?plan=106",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-premium/4gb-premium-java/checkout?plan=107",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-premium/4gb-premium-java/checkout?plan=108"
+        }
+      },
+      {
+        "id": "ryzen-5800x-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 250,
+        "ram": 6,
+        "nvme": 24,
+
+        "price": 480,
+
+        "currency": "INR",
+
+        "checkout": {
+
+          "monthly": "https://billing.caspian.host/products/minecraft-java-premium/6gb-premium-java/checkout?plan=25",
+
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-premium/6gb-premium-java/checkout?plan=109",
+
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-premium/6gb-premium-java/checkout?plan=110",
+
+          "yearly": "https://billing.caspian.host/products/minecraft-java-premium/6gb-premium-java/checkout?plan=111"
+
+        }
+
+      },
+
+      {
+        "id": "ryzen-5800x-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 300,
+        "ram": 8,
+        "nvme": 28,
+
+        "price": 640,
+
+        "currency": "INR",
+
+        "checkout": {
+
+          "monthly": "https://billing.caspian.host/products/minecraft-java-premium/8gb-premium-java/checkout?plan=26",
+
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-premium/8gb-premium-java/checkout?plan=112",
+
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-premium/8gb-premium-java/checkout?plan=113",
+
+          "yearly": "https://billing.caspian.host/products/minecraft-java-premium/8gb-premium-java/checkout?plan=114"
+
+        }
+
+      },
+
+      {
+        "id": "ryzen-5800x-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 36,
+
+        "price": 960,
+
+        "currency": "INR",
+
+        "checkout": {
+
+          "monthly": "https://billing.caspian.host/products/minecraft-java-premium/12gb-premium-java/checkout?plan=27",
+
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-premium/12gb-premium-java/checkout?plan=115",
+
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-premium/12gb-premium-java/checkout?plan=116",
+
+          "yearly": "https://billing.caspian.host/products/minecraft-java-premium/12gb-premium-java/checkout?plan=117"
+
+        }
+
+      },
+
+      {
+        "id": "ryzen-5800x-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 44,
+
+        "price": 1199,
+
+        "currency": "INR",
+
+        "checkout": {
+
+          "monthly": "https://billing.caspian.host/products/minecraft-java-premium/16gb-premium-java/checkout?plan=28",
+
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-premium/16gb-premium-java/checkout?plan=118",
+
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-premium/16gb-premium-java/checkout?plan=119",
+
+          "yearly": "https://billing.caspian.host/products/minecraft-java-premium/16gb-premium-java/checkout?plan=120"
+
+        }
+
+      },
+
+      {
+        "id": "ryzen-5800x-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 60,
+
+        "price": 1920,
+
+        "currency": "INR",
+
+        "checkout": {
+
+          "monthly": "https://billing.caspian.host/products/minecraft-java-premium/24gb-premium-java/checkout?plan=30",
+
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-premium/24gb-premium-java/checkout?plan=121",
+
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-premium/24gb-premium-java/checkout?plan=122",
+
+          "yearly": "https://billing.caspian.host/products/minecraft-java-premium/24gb-premium-java/checkout?plan=123"
+
+        }
+
+      },
+
+      {
+        "id": "ryzen-5800x-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 800,
+        "ram": 32,
+        "nvme": 76,
+
+        "price": 2499,
+
+        "currency": "INR",
+
+        "checkout": {
+
+          "monthly": "https://billing.caspian.host/products/minecraft-java-premium/32gb-premium-java/checkout?plan=31",
+
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-premium/32gb-premium-java/checkout?plan=124",
+
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-premium/32gb-premium-java/checkout?plan=125",
+
+          "yearly": "https://billing.caspian.host/products/minecraft-java-premium/32gb-premium-java/checkout?plan=126"
+
+        }
+
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 300,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.lunarhost.io/minecraft-java/ryzen-5800x/24gb",
+          "threeMonths": "https://billing.lunarhost.io/minecraft-java/ryzen-5800x/24gb-3months",
+          "sixMonths": "https://billing.lunarhost.io/minecraft-java/ryzen-5800x/24gb-6months",
+          "yearly": "https://billing.lunarhost.io/minecraft-java/ryzen-5800x/24gb-yearly"
+        }
+      }
+    ],
+    "ryzen-7900x": [
+      {
+        "id": "ryzen-7900x-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 50,
+        "ram": 1,
+        "nvme": 4,
+        "price": 110,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/1gb-ultra-java/checkout?plan=32",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/1gb-ultra-java/checkout?plan=444",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/1gb-ultra-java/checkout?plan=445",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/1gb-ultra-java/checkout?plan=446"
+        }
+      },
+      {
+        "id": "ryzen-7900x-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 100,
+        "ram": 2,
+        "nvme": 20,
+        "price": 220,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/2gb-ultra-java/checkout?plan=33",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/2gb-ultra-java/checkout?plan=127",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/2gb-ultra-java/checkout?plan=128",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/2gb-ultra-java/checkout?plan=128"
+        }
+      },
+      {
+        "id": "ryzen-7900x-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 24,
+        "price": 440,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/4gb-ultra-java/checkout?plan=34",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/4gb-ultra-java/checkout?plan=130",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/4gb-ultra-java/checkout?plan=131",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/4gb-ultra-java/checkout?plan=132"
+        }
+      },
+      {
+        "id": "ryzen-7900x-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 28,
+        "price": 660,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/6gb-ultra-java/checkout?plan=35",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/6gb-ultra-java/checkout?plan=133",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/6gb-ultra-java/checkout?plan=134",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/6gb-ultra-java/checkout?plan=135"
+        }
+      },
+      {
+        "id": "ryzen-7900x-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 300,
+        "ram": 8,
+        "nvme": 32,
+        "price": 880,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/8gb-ultra-java/checkout?plan=36",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/8gb-ultra-java/checkout?plan=136",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/8gb-ultra-java/checkout?plan=137",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/8gb-ultra-java/checkout?plan=138"
+        }
+      },
+      {
+        "id": "ryzen-7900x-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 400,
+        "ram": 12,
+        "nvme": 40,
+        "price": 1320,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/12gb-ultra-java/checkout?plan=37",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/12gb-ultra-java/checkout?plan=139",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/12gb-ultra-java/checkout?plan=140",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/12gb-ultra-java/checkout?plan=141"
+        }
+      },
+      {
+        "id": "ryzen-7900x-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 500,
+        "ram": 16,
+        "nvme": 48,
+        "price": 1760,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/16gb-ultra-java/checkout?plan=38",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/16gb-ultra-java/checkout?plan=142",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/16gb-ultra-java/checkout?plan=143",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/16gb-ultra-java/checkout?plan=144"
+        }
+      },
+      {
+        "id": "ryzen-7900x-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 600,
+        "ram": 24,
+        "nvme": 64,
+        "price": 2640,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/24gb-ultra-java/checkout?plan=40",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/24gb-ultra-java/checkout?plan=145",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/24gb-ultra-java/checkout?plan=146",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/24gb-ultra-java/checkout?plan=147"
+        }
+      },
+      {
+        "id": "ryzen-7900x-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 800,
+        "ram": 32,
+        "nvme": 80,
+        "price": 3520,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/32gb-ultra-java/checkout?plan=41",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/32gb-ultra-java/checkout?plan=148",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-java-ultra-servers/32gb-ultra-java/checkout?plan=149",
+          "yearly": "https://billing.caspian.host/products/minecraft-java-ultra-servers/32gb-ultra-java/checkout?plan=150"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 0,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.lunarhost.io/minecraft-java/ryzen-7900x/24gb",
+          "threeMonths": "https://billing.lunarhost.io/minecraft-java/ryzen-7900x/24gb-3months",
+          "sixMonths": "https://billing.lunarhost.io/minecraft-java/ryzen-7900x/24gb-6months",
+          "yearly": "https://billing.lunarhost.io/minecraft-java/ryzen-7900x/24gb-yearly"
+        }
+      }
+    ],
+    "i7-7700k": [
+      {
+        "id": "i7-7700k-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 4,
+        "price": 130,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-2gb-advance-java/checkout?plan=404",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-2gb-advance-java/checkout?plan=405",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-2gb-advance-java/checkout?plan=406",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-2gb-advance-java/checkout?plan=407"
+        }
+      },
+      {
+        "id": "i7-7700k-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 8,
+        "price": 260,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-4gb-advance-java/checkout?plan=408",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-4gb-advance-java/checkout?plan=409",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-4gb-advance-java/checkout?plan=410",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-4gb-advance-java/checkout?plan=411"
+        }
+      },
+      {
+        "id": "i7-7700k-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 12,
+        "price": 390,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-6gb-advance-java/checkout?plan=412",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-6gb-advance-java/checkout?plan=413",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-6gb-advance-java/checkout?plan=414",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-6gb-advance-java/checkout?plan=415"
+        }
+      },
+      {
+        "id": "i7-7700k-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 250,
+        "ram": 8,
+        "nvme": 16,
+        "price": 520,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-8gb-advance-java/checkout?plan=416",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-8gb-advance-java/checkout?plan=417",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-8gb-advance-java/checkout?plan=418",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-8gb-advance-java/checkout?plan=419"
+        }
+      },
+      {
+        "id": "i7-7700k-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 24,
+        "price": 780,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-12gb-advance-java/checkout?plan=420",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-12gb-advance-java/checkout?plan=421",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-12gb-advance-java/checkout?plan=422",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-12gb-advance-java/checkout?plan=423"
+        }
+      },
+      {
+        "id": "i7-7700k-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 32,
+        "price": 1040,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-16gb-advance-java/checkout?plan=424",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-16gb-advance-java/checkout?plan=425",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-16gb-advance-java/checkout?plan=426",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-16gb-advance-java/checkout?plan=427"
+        }
+      },
+      {
+        "id": "i7-7700k-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 48,
+        "price": 1560,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-24gb-advance-javaa-mc/checkout?plan=428",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-24gb-advance-javaa-mc/checkout?plan=429",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-24gb-advance-javaa-mc/checkout?plan=430",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-24gb-advance-javaa-mc/checkout?plan=431"
+        }
+      },
+      {
+        "id": "i7-7700k-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 200,
+        "ram": 32,
+        "nvme": 64,
+        "price": 2080,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-32gb-advance-java/checkout?plan=432",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-32gb-advance-java/checkout?plan=433",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-32gb-advance-java/checkout?plan=434",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-32gb-advance-java/checkout?plan=435"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 200,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.lunarhost.io/minecraft-java/i7-7700k/24gb",
+          "threeMonths": "https://billing.lunarhost.io/minecraft-java/i7-7700k/24gb-3months",
+          "sixMonths": "https://billing.lunarhost.io/minecraft-java/i7-7700k/24gb-6months",
+          "yearly": "https://billing.lunarhost.io/minecraft-java/i7-7700k/24gb-yearly"
+        }
+      }
+    ]
+  }
+}

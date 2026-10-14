@@ -1,0 +1,51 @@
+{
+  "header": {
+    "badge": "Infrastructure",
+    "title": "Enterprise Grade",
+    "accent": "Hardware",
+    "description": "Every node is built for sustained workloads — high clock CPUs, fast memory, NVMe storage, and protected uplinks so your servers stay responsive under load.",
+    "ctaText": "View Benchmarks"
+  },
+  "highlights": [
+    { "value": "4+", "label": "CPU tiers", "detail": "Intel & AMD mix" },
+    { "value": "64GB", "label": "DDR5 ECC", "detail": "5600MHz class" },
+    { "value": "NVMe", "label": "Gen4 storage", "detail": "Low-latency IO" },
+    { "value": "10Gbps", "label": "Network uplink", "detail": "20+ PoPs" }
+  ],
+  "processorGroup": {
+    "title": "Processor lineup",
+    "subtitle": "Pick the tier that matches your player count and modpack weight.",
+    "cpus": [
+      { "name": "AMD EPYC 7513", "tag": "Enterprise", "note": "High core density" },
+      { "name": "AMD EPYC 9474F", "tag": "Enterprise", "note": "High frequency EPYC" },
+      { "name": "Ryzen 7 5800X", "tag": "Performance", "note": "Strong single-thread" },
+      { "name": "Ryzen 9 7900X", "tag": "Ultra", "note": "Peak gaming clocks" }
+    ]
+  },
+  "specs": [
+    {
+      "label": "Memory",
+      "value": "64GB DDR5 ECC",
+      "desc": "Error-correcting RAM for stability under heavy plugin and mod loads.",
+      "icon": "MemoryStick"
+    },
+    {
+      "label": "Storage",
+      "value": "M.2 NVMe SSDs",
+      "desc": "Enterprise-grade drives for fast world saves, backups, and chunk IO.",
+      "icon": "HardDrive"
+    },
+    {
+      "label": "Network",
+      "value": "10Gbps Uplink",
+      "desc": "Low-latency routing with DDoS mitigation at the edge.",
+      "icon": "Shield"
+    },
+    {
+      "label": "Power",
+      "value": "Redundant feeds",
+      "desc": "Designed for 99.9% uptime targets with monitored infrastructure.",
+      "icon": "Zap"
+    }
+  ]
+}

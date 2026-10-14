@@ -1,0 +1,80 @@
+{
+  "name": "Intel Xeon Series",
+  "image": "/images/intel.png",
+  "heroImage": "/images/map-blue.svg",
+  "description": "Premium Intel Xeon root servers with powerful performance and robust DDoS protection. Ideal for gaming, streaming, and high-traffic websites.",
+  "plans": [
+    {
+      "name": "INTEL - 01",
+      "ram": "2GB",
+      "cpu": "1",
+      "ssd": "20GB",
+      "traffic": "1TB",
+      "uplink": "100 Mbit/s",
+      "ipv4": "1",
+      "ddos": "15Tbps+ Protection",
+      "price": 5.00,
+      "link": "#"
+    },
+    {
+      "name": "INTEL - 02",
+      "ram": "4GB",
+      "cpu": "2",
+      "ssd": "40GB",
+      "traffic": "2TB",
+      "uplink": "250 Mbit/s",
+      "ipv4": "1",
+      "ddos": "15Tbps+ Protection",
+      "price": 10.00,
+      "link": "#"
+    },
+    {
+      "name": "INTEL - 03",
+      "ram": "6GB",
+      "cpu": "3",
+      "ssd": "60GB",
+      "traffic": "3TB",
+      "uplink": "500 Mbit/s",
+      "ipv4": "1",
+      "ddos": "15Tbps+ Protection",
+      "price": 15.00,
+      "link": "#"
+    },
+    {
+      "name": "INTEL - 04",
+      "ram": "8GB",
+      "cpu": "4",
+      "ssd": "80GB",
+      "traffic": "4TB",
+      "uplink": "1 Gbit/s",
+      "ipv4": "1",
+      "ddos": "15Tbps+ Protection",
+      "price": 25.00,
+      "link": "#"
+    },
+    {
+      "name": "INTEL - 05",
+      "ram": "12GB",
+      "cpu": "6",
+      "ssd": "120GB",
+      "traffic": "6TB",
+      "uplink": "1 Gbit/s",
+      "ipv4": "1",
+      "ddos": "15Tbps+ Protection",
+      "price": 35.00,
+      "link": "#"
+    },
+    {
+      "name": "INTEL - 06",
+      "ram": "16GB",
+      "cpu": "8",
+      "ssd": "160GB",
+      "traffic": "8TB",
+      "uplink": "1 Gbit/s",
+      "ipv4": "1",
+      "ddos": "15Tbps+ Protection",
+      "price": 50.00,
+      "link": "#"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Cancellation Policy",
+  "company": "Caspian Host",
+  "lastUpdated": "23-05-2026",
+  "description": "This Cancellation Policy outlines the terms and conditions for canceling hosting services provided by Caspian Host. By using our services, you agree to comply with this cancellation policy.",
+  "policies": [
+    {
+      "title": "1. Cancellation Duration",
+      "desc": "Customers may cancel their hosting services within 4 hours of the initial service purchase or activation. This 4-hour cancellation window applies to all service types including game server hosting, VPS hosting, dedicated servers, and related services, regardless of the billing cycle selected (monthly, quarterly, semi-annual, or yearly).\n\nCancellation requests submitted after the 4-hour period will not be eligible for cancellation with refund. Customers who wish to cancel after this period may terminate their service at the end of the current billing cycle without refund eligibility."
+    },
+    {
+      "title": "2. Cancellation Procedure",
+      "desc": "To request a cancellation, customers must manually contact the Caspian Host support team and create a proper cancellation ticket within the allowed 4-hour period. Cancelling a service directly from the billing panel or client area does NOT automatically create a cancellation request and does NOT guarantee cancellation approval.\n\nCustomers must provide their service details, reason for cancellation, and any required verification information when submitting a cancellation request."
+    },
+    {
+      "title": "3. Cancellation Approval Process",
+      "desc": "All cancellation requests are manually reviewed and processed by the Caspian Host support team. Cancellations will only be approved if they are submitted within the 4-hour window and meet the eligibility criteria. Customers may be contacted for additional verification or information before the cancellation is processed."
+    },
+    {
+      "title": "4. Service Termination After Cancellation",
+      "desc": "Once a cancellation is approved and processed, the associated hosting service will be immediately suspended or permanently terminated. All files, backups, game server data, databases, and configurations associated with the cancelled service may be permanently deleted without recovery. Customers are strongly advised to create and download backups before requesting cancellation."
+    },
+    {
+      "title": "5. Non-Cancellable Services",
+      "desc": "Certain services are strictly non-cancellable under all circumstances, including but not limited to dedicated servers with custom configurations, domain registrations, setup fees, add-ons, software licenses, upgrade fees, one-time services, and services terminated due to Terms of Service violations. Renewals and manually upgraded services are also non-cancellable."
+    },
+    {
+      "title": "6. Abuse of Cancellation Policy",
+      "desc": "Any attempt to abuse, exploit, manipulate, or fraudulently use the cancellation system will result in immediate denial of the cancellation request and may lead to suspension, account termination, blacklisting, or permanent restriction from using Caspian Host services in the future."
+    }
+  ]
+}

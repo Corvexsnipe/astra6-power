@@ -1,0 +1,11 @@
+{
+  "header": {
+    "title": "Global",
+    "accent": "Locations",
+    "description": "We currently offer hosting locations in India and Singapore only."
+  },
+  "countries": [
+    "India",
+    "Singapore"
+  ]
+}

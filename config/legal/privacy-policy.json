@@ -1,0 +1,44 @@
+{
+  "title": "Privacy Policy",
+  "company": "Caspian Host",
+  "lastUpdated": "23-05-2026",
+  "description": "This Privacy Policy explains how Caspian Host collects, uses, stores, protects, and manages customer information when using our hosting services, including game servers, VPS hosting, dedicated servers, and related infrastructure services.",
+  "policies": [
+    {
+      "title": "1. Information We Collect",
+      "desc": "Caspian Host collects only the information necessary to provide and maintain our services. This may include your name, email address, billing information, IP address, service usage data, account activity, and support-related communications. Additional information may be collected when interacting with our support team, payment systems, or client dashboard."
+    },
+    {
+      "title": "2. How We Use Your Information",
+      "desc": "Your information is used strictly for operational purposes, including account management, billing, fraud prevention, infrastructure monitoring, technical support, service optimization, and important service-related communications. We may also use certain technical data to maintain server security, prevent abuse, and improve service performance."
+    },
+    {
+      "title": "3. Data Sharing & Privacy Commitment",
+      "desc": "Caspian Host does not sell, rent, leak, or share customer personal information with third parties under normal circumstances. Your personal data remains private and confidential. The only exception applies to trusted payment gateways and payment processors required to securely process transactions and billing operations. Apart from payment-related processing, your information is not shared with external parties unless legally required by law or necessary to protect our infrastructure, users, or services."
+    },
+    {
+      "title": "4. Staff Access & Confidentiality",
+      "desc": "Access to customer personal information is strictly limited to authorized high-level staff members, such as administrators or senior management, who require access for operational or security purposes. All staff members with access are expected to maintain strict confidentiality and handle customer information responsibly. Unauthorized access, misuse, or disclosure of customer information is strictly prohibited within Caspian Host."
+    },
+    {
+      "title": "5. Data Security & Infrastructure Protection",
+      "desc": "Caspian Host implements industry-standard security practices and infrastructure protections to safeguard customer data, active game server files, and hosted services from unauthorized access, alteration, or disclosure. We continuously work to secure our systems and maintain service integrity. While no online system can guarantee absolute security, we take full responsibility for maintaining and protecting active hosted data stored on our infrastructure under normal operating conditions."
+    },
+    {
+      "title": "6. Cookies & Tracking Technologies",
+      "desc": "Caspian Host may use cookies, session tokens, and similar technologies to improve user experience, maintain login sessions, analyze platform performance, and enhance service functionality. Users may disable cookies through browser settings; however, certain parts of the platform may not function properly without them."
+    },
+    {
+      "title": "7. Data Retention",
+      "desc": "Customer data is retained only for as long as necessary to provide services, maintain operational records, comply with legal obligations, prevent fraud, and resolve disputes. When data is no longer required, it is securely deleted, archived, or anonymized according to operational and legal requirements."
+    },
+    {
+      "title": "8. User Rights",
+      "desc": "Customers may request access to their personal information, request corrections to inaccurate data, or request account/data removal where applicable. Requests may be submitted through official support channels and will be reviewed in accordance with applicable laws, operational requirements, and security policies."
+    },
+    {
+      "title": "9. Policy Updates",
+      "desc": "Caspian Host reserves the right to update or modify this Privacy Policy at any time. Changes may be announced through email notifications, dashboard notices, Discord announcements, or other official communication channels. Continued use of our services after policy changes constitutes acceptance of the updated Privacy Policy."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "contactDetails": {
+    "founder": "Rehan Haider",
+    "founder2": "Kathith Thakur",
+    "founder3": "Somya Choudhary",
+    "address": "7A S Block, Narayan Vihar Jaipur, Rajasthan India, 302020, jaipur, India",
+    "address2": "Flat no.42 GC Emerald Heights Tower-1 Ramprastha Greens Vaishali Sector-7 Ghaziabad Uttar Pradesh",
+    "email": "no-reply@caspian.host",
+    "enabled": true
+  },
+  "header": {
+    "badge": "Support Center",
+    "title": "Contact",
+    "accent": "Us",
+    "description": "Reach our team through your preferred support channel, or browse the FAQ for quick answers."
+  },
+  "faqButton": {
+    "label": "FAQ",
+    "description": "Browse 15+ common questions about hosting, billing, migrations, and more.",
+    "href": "/faq",
+    "enabled": true
+  },
+  "supportChannels": {
+    "discord": {
+      "label": "Discord Support",
+      "description": "Chat with our team and community for fast help, status updates, and announcements.",
+      "href": "https://discord.gg/hxPB2z8dwG",
+      "enabled": true
+    },
+    "website": {
+      "label": "Website Support",
+      "description": "Open a ticket or browse our client area for billing, technical, and account requests.",
+      "href": "https://billing.caspian.host/tickets",
+      "enabled": true
+    }
+  }
+}

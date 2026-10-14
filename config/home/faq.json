@@ -1,0 +1,26 @@
+[
+  {
+    "q": "How fast is server deployment?",
+    "a": "Our automated system provisions your server instantly. You'll receive your credentials within 60 seconds of payment confirmation."
+  },
+  {
+    "q": "What kind of DDoS protection do you provide?",
+    "a": "We provide enterprise-grade Layer 7 protection with a 2Tbps+ capacity, specifically tuned for game traffic and web applications."
+  },
+  {
+    "q": "Can I upgrade my plan later?",
+    "a": "Absolutely. You can scale your CPU, RAM, and Storage at any time through our dashboard with just a simple reboot."
+  },
+  {
+    "q": "Do you offer automated backups?",
+    "a": "Yes, we perform daily off-site backups for all nodes. You can also trigger manual snapshots before making major changes."
+  },
+  {
+    "q": "Which payment methods do you accept?",
+    "a": "We accept all major Credit Cards, PayPal, and various Cryptocurrencies including Bitcoin and Ethereum."
+  },
+  {
+    "q": "Where are your servers located?",
+    "a": "We operate in 2 global locations: India and Singapore for optimal low-latency routing."
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "header": {
+    "title": "Manage Your Server",
+    "accent": "Like a Pro",
+    "description": "Our panel is continually evolving and improving to provide you with the best experience possible."
+  },
+  "tabs": [
+    {
+      "id": "console",
+      "label": "Console",
+      "icon": "SquareTerminal",
+      "image": "https://i.postimg.cc/V6wS6KqQ/image.png"
+    },
+    {
+      "id": "files",
+      "label": "File Manager",
+      "icon": "FolderOpen",
+      "image": "https://i.postimg.cc/436drprt/image.png"
+    },
+    {
+      "id": "subusers",
+      "label": "Subusers",
+      "icon": "Users",
+      "image": "https://i.postimg.cc/bYCJcyF4/image.png"
+    },
+    {
+      "id": "backups",
+      "label": "Backups",
+      "icon": "Database",
+      "image": "https://i.postimg.cc/zX4GvdNj/image.png"
+    },
+    {
+      "id": "plugin-installer",
+      "label": "Plugin Installer",
+      "icon": "Network",
+      "image": "https://i.postimg.cc/GpxLMdy7/image.png"
+    },
+    {
+      "id": "version-changer",
+      "label": "Version Changer",
+      "icon": "Calendar",
+      "image": "https://i.postimg.cc/SsZyhdVY/image.png"
+    },
+    {
+      "id": "mod-packs",
+      "label": "Mod Packs",
+      "icon": "Package",
+      "image": "https://i.postimg.cc/8c9NFC2c/image.png"
+    },
+    {
+      "id": "mod-installer",
+      "label": "Mod Installer",
+      "icon": "Download",
+      "image": "https://i.postimg.cc/kgr7qBF3/image.png"
+    },
+    {
+      "id": "server-properties",
+      "label": "Server Properties",
+      "icon": "Settings",
+      "image": "https://i.postimg.cc/631NS35V/image.png"
+    },
+    {
+      "id": "server-importer",
+      "label": "Server Importer",
+      "icon": "Upload",
+      "image": "https://i.postimg.cc/SsPwdvDB/image.png"
+    },
+    {
+      "id": "sub-domain",
+      "label": "Sub Domain",
+      "icon": "Globe",
+      "image": "https://i.postimg.cc/QN9tDGL2/image.png"
+    },
+    {
+      "id": "player-manager",
+      "label": "Player Manager",
+      "icon": "UserCircle",
+      "image": "https://i.postimg.cc/9fgm31L0/image.png"
+    },
+    {
+      "id": "custom-world",
+      "label": "Custom World",
+      "icon": "Globe",
+      "image": "https://i.postimg.cc/KcMZVPBc/image.png"
+    },
+    {
+      "id": "custom-maps",
+      "label": "Custom Maps",
+      "icon": "Map",
+      "image": "https://i.postimg.cc/KcMZVPBc/image.png"
+    }
+  ]
+}

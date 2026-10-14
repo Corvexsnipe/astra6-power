@@ -1,0 +1,40 @@
+{
+  "title": "About Us",
+  "company": "Caspian Host",
+  "lastUpdated": "23-05-2026",
+  "description": "Learn about Rehan Haider and Kathith Thakur, the founders and masterminds behind Caspian Host, and our commitment to providing reliable hosting services.",
+  "policies": [
+    {
+      "title": "Founder",
+      "desc": "Rehan Haider is the founder and mastermind behind Caspian Host. As the visionary leader, Rehan Haider is responsible for the overall strategic direction and innovation of the hosting platform."
+    },
+    {
+      "title": "Founder",
+      "desc": "Kathith Thakur is a founder of Caspian Host. As Founder, Kathith Thakur oversees the management, operation, and legal aspects of the hosting services."
+    },
+    {
+      "title": "Founder",
+      "desc": "Somya Choudhary is a founder of Caspian Host. As Founder, Somya Choudhary oversees strategic operations and business development initiatives."
+    },
+    {
+      "title": "Legal Identity",
+      "desc": "The legal identities and operators of this website are SOMYA CHOUDHARY and KATHITH THAKUR. All legal matters, contracts, and obligations related to the hosting services are established under these legal identities."
+    },
+    {
+      "title": "Business Address 1",
+      "desc": "7A S Block, Narayan Vihar Jaipur, Rajasthan India, 302020, jaipur, India"
+    },
+    {
+      "title": "Business Address 2",
+      "desc": "Flat no.42 GC Emerald Heights Tower-1 Ramprastha Greens Vaishali Sector-7 Ghaziabad Uttar Pradesh"
+    },
+    {
+      "title": "Our Commitment",
+      "desc": "Rehan Haider and Kathith Thakur are committed to providing reliable, secure, and high-quality hosting services to our customers. We strive to maintain excellent infrastructure, responsive support, and transparent business practices to ensure the best possible experience for our users."
+    },
+    {
+      "title": "Contact Information",
+      "desc": "For any inquiries, support requests, or business matters related to our hosting services, please reach out through our official contact channels. Our team is dedicated to addressing your concerns in a timely and professional manner."
+    }
+  ]
+}

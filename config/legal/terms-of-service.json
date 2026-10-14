@@ -1,0 +1,60 @@
+{
+  "title": "Terms of Service",
+  "company": "Caspian Host",
+  "lastUpdated": "23-05-2026",
+  "description": "These Terms of Service (“TOS”) govern the use of services provided by Caspian Host. This website is operated by KATHITH THAKUR. By purchasing, accessing, or using any of our hosting services, including game server hosting, VPS hosting, dedicated servers, or related services, you agree to comply with and be legally bound by the following terms and conditions.",
+  "policies": [
+    {
+      "title": "1. Acceptable Use Policy",
+      "desc": "Customers may only use Caspian Host services for lawful and authorized purposes. The following activities are strictly prohibited: DDoS attacks, hacking attempts, malware distribution, phishing, spam operations, unauthorized port scanning, botnet hosting, illegal file hosting, copyright infringement, fraudulent activities, or any activity that violates local or international laws. Abuse of server resources that negatively impacts infrastructure stability or other customers is not permitted. Any violation may result in immediate suspension or permanent termination without refund."
+    },
+    {
+      "title": "2. Account Responsibility & Security",
+      "desc": "Customers are fully responsible for maintaining the security and confidentiality of their account credentials, including passwords, API keys, and access tokens. Caspian Host will not be held liable for unauthorized access caused by weak passwords, account sharing, malware infections, or customer negligence. Users are responsible for all actions performed under their account and must immediately notify support if suspicious activity or unauthorized access is detected."
+    },
+    {
+      "title": "3. Payments, Billing & Renewals",
+      "desc": "All services provided by Caspian Host are billed in advance according to the selected billing cycle. Services may be suspended or terminated if payment is not received before the due date. Customers are responsible for ensuring invoices are paid on time. Failure to renew services may lead to permanent data loss. Prices, plans, and service specifications may be updated or changed at any time with reasonable notice. Chargebacks or payment disputes initiated without first contacting support may result in immediate account termination and blacklisting from future services."
+    },
+    {
+      "title": "4. Refund Policy",
+      "desc": "Refunds are only provided if explicitly stated for a specific service or promotional offer. Services involving instant provisioning, custom deployments, dedicated resources, or abuse violations are generally non-refundable. Refund requests submitted after excessive usage, policy violations, or service misuse will not be accepted. Caspian Host reserves the right to deny refund requests if suspicious or abusive behavior is detected."
+    },
+    {
+      "title": "5. Service Availability & Uptime",
+      "desc": "Caspian Host aims to provide reliable and stable hosting services with maximum possible uptime. However, uninterrupted availability is not guaranteed. Downtime may occur due to hardware failures, software issues, network outages, DDoS attacks, upstream provider failures, scheduled maintenance, or unforeseen circumstances beyond our control. Caspian Host is not liable for any business loss, revenue loss, or damages caused by service interruptions or outages."
+    },
+    {
+      "title": "6. Resource Usage & Fair Usage Policy",
+      "desc": "Customers must use allocated resources, including CPU, RAM, bandwidth, storage, and network usage, fairly and responsibly. Excessive resource consumption that affects node stability, performance, or other clients may result in temporary throttling, suspension, or forced service upgrades. Game servers using unstable plugins, excessive mods, crash exploits, or malicious scripts may be suspended to maintain infrastructure stability."
+    },
+    {
+      "title": "7. Data Loss & Backups",
+      "desc": "Caspian Host takes responsibility for maintaining the security and integrity of customers’ active server data hosted on our infrastructure. We implement reasonable security measures to ensure that live server data remains protected and accessible under normal operating conditions. However, customers are still encouraged to maintain independent backups for additional safety.\n\nWhile backup systems and snapshots may be provided as a convenience feature, Caspian Host does not guarantee the integrity, availability, or successful restoration of backup files in all situations. Backup corruption may occasionally occur due to factors such as taking backups while a server is actively running, incomplete write operations, software crashes, file corruption, or unexpected system interruptions.\n\nCaspian Host shall not be held liable for corrupted, incomplete, or unusable backup files. Customers are advised to properly shut down services before creating critical backups whenever possible."
+    },
+    {
+      "title": "8. Suspension & Termination",
+      "desc": "Caspian Host reserves the right to suspend, restrict, or permanently terminate any service or account without prior notice if a customer violates these Terms of Service, engages in abusive behavior, causes network disruption, performs illegal activities, or poses a security risk to infrastructure or other users. Severe violations may result in permanent bans without refund eligibility."
+    },
+    {
+      "title": "9. Game Server Hosting Policy",
+      "desc": "Customers using game hosting services are responsible for all uploaded files, plugins, modifications, maps, scripts, and server configurations. Caspian Host is not responsible for plugin incompatibility, corrupted worlds, mod conflicts, failed updates, or gameplay-related issues. Any intentional attempt to crash nodes, exploit vulnerabilities, bypass limitations, or disrupt network operations is strictly prohibited."
+    },
+    {
+      "title": "10. Support Policy",
+      "desc": "Technical support is provided for issues directly related to our hosting infrastructure and service availability. Caspian Host does not guarantee support for third-party software, custom scripts, plugin development, game modifications, or customer misconfigurations unless explicitly stated. Support response times may vary depending on workload, ticket priority, and service type."
+    },
+    {
+      "title": "11. Limitation of Liability",
+      "desc": "Under no circumstances shall Caspian Host, its staff, partners, or affiliates be liable for indirect, incidental, special, or consequential damages, including but not limited to data loss, business interruption, revenue loss, or service disruption. The maximum liability of Caspian Host for any claim shall not exceed the amount paid by the customer for the affected service during the current billing period."
+    },
+    {
+      "title": "12. Staff & Partner Abuse Policy",
+      "desc": "Any form of abuse, harassment, or disrespectful behavior directed towards Caspian Host staff, partners, or the owner is strictly prohibited. If the affected staff member, partner, or owner does not find the behavior problematic and does not report it, no action will be taken. However, if any staff member, partner, or the owner reports abusive behavior, the customer's service will be terminated immediately without any refund. This policy applies to all forms of communication including but not limited to support tickets, live chat, Discord, email, social media, and any other platform where interaction occurs."
+    },
+    {
+      "title": "13. Changes to Terms of Service",
+      "desc": "Caspian Host reserves the right to modify, update, or revise these Terms of Service at any time without prior notice. Customers are responsible for reviewing the latest version periodically. Continued use of our services after changes are published constitutes acceptance of the revised Terms of Service."
+    }
+  ]
+}

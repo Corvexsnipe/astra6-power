@@ -1,0 +1,93 @@
+{
+  "name": "FiveM",
+  "slug": "fivem",
+  "image": "/images/fivem.png",
+  "heroImage": "/images/fivem-bg.webp",
+  "description": "Run high-population RP servers with confidence. Optimized performance, stable networking, and powerful hardware to keep your city alive 24/7.",
+  "plans": [
+    {
+      "ram": "2GB",
+      "cpu": "1",
+      "ssd": "20GB",
+      "price": 3.99,
+      "link": ""
+    },
+    {
+      "ram": "4GB",
+      "cpu": "2",
+      "ssd": "50GB",
+      "price": 7.99,
+      "link": ""
+    },
+    {
+      "ram": "8GB",
+      "cpu": "4",
+      "ssd": "120GB",
+      "price": 15.99,
+      "link": ""
+    },
+    {
+      "ram": "12GB",
+      "cpu": "5",
+      "ssd": "150GB",
+      "price": 23.99,
+      "link": ""
+    },
+    {
+      "ram": "16GB",
+      "cpu": "6",
+      "ssd": "200GB",
+      "price": 31.99,
+      "link": ""
+    },
+    {
+      "ram": "20GB",
+      "cpu": "7",
+      "ssd": "225GB",
+      "price": 39.99,
+      "link": ""
+    },
+    {
+      "ram": "24GB",
+      "cpu": "8",
+      "ssd": "300GB",
+      "price": 47.99,
+      "link": ""
+    },
+    {
+      "ram": "28GB",
+      "cpu": "9",
+      "ssd": "400GB",
+      "price": 55.99,
+      "link": ""
+    },
+    {
+      "ram": "32GB",
+      "cpu": "10",
+      "ssd": "500GB",
+      "price": 63.99,
+      "link": ""
+    },
+    {
+      "ram": "48GB",
+      "cpu": "11",
+      "ssd": "600GB",
+      "price": 95.99,
+      "link": ""
+    },
+    {
+      "ram": "64GB",
+      "cpu": "12",
+      "ssd": "700GB",
+      "price": 127.99,
+      "link": ""
+    },
+    {
+      "ram": "96GB",
+      "cpu": "16",
+      "ssd": "1000GB",
+      "price": 191.99,
+      "link": ""
+    }
+  ]
+}

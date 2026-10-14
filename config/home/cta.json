@@ -1,0 +1,15 @@
+{
+  "header": {
+    "title": "Ready To Get",
+    "accent": "Started?",
+    "description": "Deploy your high-performance infrastructure in minutes and join hundreds of satisfied customers."
+  },
+  "primaryBtn": {
+    "text": "Place Order",
+    "href": "/game-hosting"
+  },
+  "secondaryBtn": {
+    "text": "Contact Sales",
+    "href": "/contactus-info"
+  }
+}

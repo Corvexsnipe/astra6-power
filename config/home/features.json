@@ -1,0 +1,39 @@
+{
+  "header": {
+    "title": "Built For",
+    "accent": "Reliability",
+    "description": "What makes us winner against the competition?"
+  },
+  "items": [
+    {
+      "title": "High Performance",
+      "desc": "All of our servers run on the latest gen hardware to ensure your services remain speedy!",
+      "icon": "Zap"
+    },
+    {
+      "title": "Global Reach",
+      "desc": "We offer servers all around the globe ensuring you and your users always have the best connection!",
+      "icon": "Globe"
+    },
+    {
+      "title": "24/7 Support",
+      "desc": "No matter what you need we offer around the clock support and wont rest until your issue is solved!",
+      "icon": "LifeBuoy"
+    },
+    {
+      "title": "Secure Network",
+      "desc": "Advanced DDoS protection and enterprise-grade firewalls to keep your data safe and sound.",
+      "icon": "ShieldCheck"
+    },
+    {
+      "title": "Affordable Pricing",
+      "desc": "Industry leading prices without compromising on quality or performance for your projects.",
+      "icon": "DollarSign"
+    },
+    {
+      "title": "Dedicated Resources",
+      "desc": "We never oversell our nodes. You get exactly what you pay for with dedicated CPU and RAM.",
+      "icon": "Cpu"
+    }
+  ]
+}

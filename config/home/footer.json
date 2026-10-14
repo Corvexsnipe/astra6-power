@@ -1,0 +1,52 @@
+{
+  "brand": {
+    "description": "Enjoy lag-free gaming with our high-performance game servers, optimized for speed and reliability. Experience seamless multiplayer action with low latency and DDoS protection."
+  },
+  "status": {
+    "url": "#",
+    "text": "All Systems Operational"
+  },
+  "watermark": {
+    "enabled": false,
+    "url": "https://builtbybit.com/members/mr-huzi.426914/"
+  },
+  "sections": [
+    {
+      "title": "Services",
+      "links": [
+        { "label": "Root Servers", "url": "/root-servers" },
+        { "label": "Game Servers", "url": "/game-servers" },
+        { "label": "Dedicated Servers", "url": "/dedicated-servers" },
+        { "label": "Colocation", "url": "#" }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        { "label": "Terms of Service", "url": "/legal/terms-of-service" },
+        { "label": "Privacy Policy", "url": "/legal/privacy-policy" },
+        { "label": "SLA", "url": "/legal/service-level-agreement" },
+        { "label": "Refund Policy", "url": "/legal/refund-policy" }
+      ]
+    },
+    {
+      "title": "Support",
+      "links": [
+        { "label": "FAQ", "url": "/faq" },
+        { "label": "Service Status", "url": "https://status.caspian.host/" },
+        { "label": "Contact Us", "url": "/contactus-info" },
+        { "label": "Support Ticket", "url": "https://billing.caspian.host/tickets" }
+      ]
+    }
+  ],
+  "socials": [
+    { "platform": "Discord", "url": "https://discord.gg/hxPB2z8dwG", "enabled": true },
+    { "platform": "Instagram", "url": "https://www.instagram.com/caspianhost/", "enabled": true },
+    { "platform": "Youtube", "url": "https://www.youtube.com/@CaspianHosting", "enabled": true },
+    { "platform": "Facebook", "url": "https://www.facebook.com/profile.php?id=61590165435361", "enabled": true },
+    { "platform": "Linkedin", "url": "https://linkedin.com", "enabled": false },
+    { "platform": "Tiktok", "url": "https://tiktok.com", "enabled": false },
+    { "platform": "Trustpilot", "url": "https://au.trustpilot.com/review/caspian.host", "enabled": true },
+    { "platform": "Email", "url": "", "enabled": true }
+  ]
+}

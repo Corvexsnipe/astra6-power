@@ -1,0 +1,70 @@
+{
+  "header": {
+    "badge": "Help Center",
+    "title": "Frequently Asked",
+    "accent": "Questions",
+    "description": "Quick answers about hosting, billing, performance, and support. Edit any item in config/faq/faq-page.json."
+  },
+  "items": [
+    {
+      "q": "Question 1 — How do I order a game server?",
+      "a": "Answer 1 — Replace this with your steps for choosing a plan, completing checkout, and accessing the panel."
+    },
+    {
+      "q": "Question 2 — What payment methods do you accept?",
+      "a": "Answer 2 — we accept 50+ payment methods including Upi, credit cards, PayPal, and more which you can check on our payment gateway while on check out "
+    },
+    {
+      "q": "Question 3 — How long does setup take?",
+      "a": "Answer 3 — ususally around 10 to 15 seconds with 99.99 percent chances if delayed contact support"
+    },
+    {
+      "q": "Question 4 — Do you offer refunds?",
+      "a": "Answer 4 — https://www.caspian.host/legal/refund-policy read it "
+    },
+    {
+      "q": "Question 5 — Which Minecraft editions do you support?",
+      "a": "Answer 5 — Java, Bedrock, PocketMine"
+    },
+    {
+      "q": "Question 6 — Is DDoS protection included?",
+      "a": "Answer 6 — yes our each server is protected by cloudflare protection and minimun's with OVH protection"
+    },
+    {
+      "q": "Question 7 — Can I upgrade RAM or switch plans?",
+      "a": "Answer 7 — yes you can upgrade ram even after the purchase and also switch the plans after purchase "
+    },
+    {
+      "q": "Question 8 — Where are your server locations?",
+      "a": "Answer 8 — check it on location section in home page of website"
+    },
+    {
+      "q": "Question 9 — How do backups work?",
+      "a": "Answer 9 — Our backups work through Pterodactyl’s cloud backup system integrated with Cloudflare R2 object storage. When a backup is created, the server compresses your files, worlds, plugins, and configurations into a secure archive and uploads it directly to off-site cloud storage. This keeps backups safe even if the game node experiences issues. Users can restore backups anytime directly from the panel, and since R2 uses object storage, backups are reliable, scalable, and optimized for large game servers."
+    },
+    {
+      "q": "Question 10 — Can I install mods or plugins?",
+      "a": "Answer 10 — you can install mods / plugins "
+    },
+    {
+      "q": "Question 11 — How do I migrate from another host?",
+      "a": "Answer 11 — use server importer if you know for tutorial you can search on youtube caspian hosting server migration"
+    },
+    {
+      "q": "Question 12 — What is your uptime guarantee?",
+      "a": "Answer 12 — https://www.caspian.host/legal/service-level-agreement"
+    },
+    {
+      "q": "Question 13 — How do I contact support?",
+      "a": "Answer 13 — billing panel tickets and discord "
+    },
+    {
+      "q": "Question 14 — Which control panel we guys use for game servers",
+      "a": "Answer 14 — we use pterodactyl control panel for game servers with custom addons like plugin installer , mod installer , mod pack installer , version changer , server importer , player manager , world manager etc"
+    },
+    {
+      "q": "Question 15 — how we are trusted",
+      "a": "Answer 15 — we are trusted because we have been in the industry for a long time and we have a lot of satisfied customers and recommended by india's top content creators "
+    }
+  ]
+}

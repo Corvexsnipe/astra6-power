@@ -1,0 +1,751 @@
+{
+  "cpuModels": [
+    {
+      "id": "epyc-7531",
+      "name": "AMD EPYC 7531",
+      "tier": "India Budget",
+      "description": "Enterprise \u00b7 high core count"
+    },
+    {
+      "id": "epyc-9474f",
+      "name": "AMD EPYC 9474F",
+      "tier": "India Advance",
+      "description": "High frequency EPYC"
+    },
+    {
+      "id": "ryzen-5800x",
+      "name": "Ryzen 7 5800X",
+      "tier": "India Premium",
+      "description": "8 cores \u00b7 strong single-thread"
+    },
+    {
+      "id": "ryzen-7900x",
+      "name": "Ryzen 9 7900X",
+      "tier": "India Ultra",
+      "description": "Zen 4 \u00b7 peak gaming clocks"
+    },
+    {
+      "id": "i7-7700k",
+      "name": "Intel Core i7-7700K",
+      "tier": "Singapore Premium",
+      "description": "4 cores \u00b7 8 threads \u00b7 high clocks"
+    }
+  ],
+  "plansByCpu": {
+    "epyc-9474f": [
+      {
+        "id": "epyc-9474f-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 3,
+        "price": 65,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-advance/hytale-1gb-advance/checkout?plan=279",
+          "threeMonths": "https://billing.caspian.host/products/hytale-advance/hytale-1gb-advance/checkout?plan=280",
+          "sixMonths": "https://billing.caspian.host/products/hytale-advance/hytale-1gb-advance/checkout?plan=281",
+          "yearly": "https://billing.caspian.host/products/hytale-advance/hytale-1gb-advance/checkout?plan=282"
+        }
+      },
+      {
+        "id": "epyc-9474f-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 6,
+        "price": 130,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-advance/hytale-2gb-advance/checkout?plan=280",
+          "threeMonths": "https://billing.caspian.host/products/hytale-advance/hytale-2gb-advance/checkout?plan=281",
+          "sixMonths": "https://billing.caspian.host/products/hytale-advance/hytale-2gb-advance/checkout?plan=282",
+          "yearly": "https://billing.caspian.host/products/hytale-advance/hytale-2gb-advance/checkout?plan=283"
+        }
+      },
+      {
+        "id": "epyc-9474f-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 10,
+        "price": 260,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-advance/hytale-4gb-advance/checkout?plan=284",
+          "threeMonths": "https://billing.caspian.host/products/hytale-advance/hytale-4gb-advance/checkout?plan=285",
+          "sixMonths": "https://billing.caspian.host/products/hytale-advance/hytale-4gb-advance/checkout?plan=286",
+          "yearly": "https://billing.caspian.host/products/hytale-advance/hytale-4gb-advance/checkout?plan=287"
+        }
+      },
+      {
+        "id": "epyc-9474f-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 250,
+        "ram": 6,
+        "nvme": 14,
+        "price": 390,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-advance/6gb-advance-hytale/checkout?plan=288",
+          "threeMonths": "https://billing.caspian.host/products/hytale-advance/6gb-advance-hytale/checkout?plan=289",
+          "sixMonths": "https://billing.caspian.host/products/hytale-advance/6gb-advance-hytale/checkout?plan=290",
+          "yearly": "https://billing.caspian.host/products/hytale-advance/6gb-advance-hytale/checkout?plan=291"
+        }
+      },
+      {
+        "id": "epyc-9474f-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 300,
+        "ram": 8,
+        "nvme": 18,
+        "price": 520,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-advance/8gb-advance-hytale/checkout?plan=292",
+          "threeMonths": "https://billing.caspian.host/products/hytale-advance/8gb-advance-hytale/checkout?plan=293",
+          "sixMonths": "https://billing.caspian.host/products/hytale-advance/8gb-advance-hytale/checkout?plan=294",
+          "yearly": "https://billing.caspian.host/products/hytale-advance/8gb-advance-hytale/checkout?plan=295"
+        }
+      },
+      {
+        "id": "epyc-9474f-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 26,
+        "price": 780,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-advance/12gb-advance-hytale/checkout?plan=296",
+          "threeMonths": "https://billing.caspian.host/products/hytale-advance/12gb-advance-hytale/checkout?plan=297",
+          "sixMonths": "https://billing.caspian.host/products/hytale-advance/12gb-advance-hytale/checkout?plan=298",
+          "yearly": "https://billing.caspian.host/products/hytale-advance/12gb-advance-hytale/checkout?plan=299"
+        }
+      },
+      {
+        "id": "epyc-9474f-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 34,
+        "price": 999,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-advance/16gb-advance-hytale/checkout?plan=300",
+          "threeMonths": "https://billing.caspian.host/products/hytale-advance/16gb-advance-hytale/checkout?plan=301",
+          "sixMonths": "https://billing.caspian.host/products/hytale-advance/16gb-advance-hytale/checkout?plan=302",
+          "yearly": "https://billing.caspian.host/products/hytale-advance/16gb-advance-hytale/checkout?plan=303"
+        }
+      },
+      {
+        "id": "epyc-9474f-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 50,
+        "price": 1499,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-advance/24gb-advance-hytale/checkout?plan=304",
+          "threeMonths": "https://billing.caspian.host/products/hytale-advance/24gb-advance-hytale/checkout?plan=305",
+          "sixMonths": "https://billing.caspian.host/products/hytale-advance/24gb-advance-hytale/checkout?plan=306",
+          "yearly": "https://billing.caspian.host/products/hytale-advance/24gb-advance-hytale/checkout?plan=307"
+        }
+      },
+      {
+        "id": "epyc-9474f-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 700,
+        "ram": 32,
+        "nvme": 68,
+        "price": 1999,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-advance/32gb-advance-hytale/checkout?plan=308",
+          "threeMonths": "https://billing.caspian.host/products/hytale-advance/32gb-advance-hytale/checkout?plan=309",
+          "sixMonths": "https://billing.caspian.host/products/hytale-advance/32gb-advance-hytale/checkout?plan=310",
+          "yearly": "https://billing.caspian.host/products/hytale-advance/32gb-advance-hytale/checkout?plan=311"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 0,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/tickets",
+          "threeMonths": "https://billing.caspian.host/tickets",
+          "sixMonths": "https://billing.caspian.host/tickets",
+          "yearly": "https://billing.caspian.host/tickets"
+        }
+      }
+    ],
+    "ryzen-5800x": [
+      {
+        "id": "ryzen-5800x-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 4,
+        "price": 80,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-premium/1gb-premium-hytale/checkout?plan=344",
+          "threeMonths": "https://billing.caspian.host/products/hytale-premium/1gb-premium-hytale/checkout?plan=345",
+          "sixMonths": "https://billing.caspian.host/products/hytale-premium/1gb-premium-hytale/checkout?plan=346",
+          "yearly": "https://billing.caspian.host/products/hytale-premium/1gb-premium-hytale/checkout?plan=347"
+        }
+      },
+      {
+        "id": "ryzen-5800x-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 8,
+        "price": 160,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-premium/2gb-premium-hytale/checkout?plan=348",
+          "threeMonths": "https://billing.caspian.host/products/hytale-premium/2gb-premium-hytale/checkout?plan=349",
+          "sixMonths": "https://billing.caspian.host/products/hytale-premium/2gb-premium-hytale/checkout?plan=350",
+          "yearly": "https://billing.caspian.host/products/hytale-premium/2gb-premium-hytale/checkout?plan=351"
+        }
+      },
+      {
+        "id": "ryzen-5800x-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 20,
+        "price": 320,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-premium/4gb-premium-hytale/checkout?plan=352",
+          "threeMonths": "https://billing.caspian.host/products/hytale-premium/4gb-premium-hytale/checkout?plan=353",
+          "sixMonths": "https://billing.caspian.host/products/hytale-premium/4gb-premium-hytale/checkout?plan=354",
+          "yearly": "https://billing.caspian.host/products/hytale-premium/4gb-premium-hytale/checkout?plan=355"
+        }
+      },
+      {
+        "id": "ryzen-5800x-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 250,
+        "ram": 6,
+        "nvme": 16,
+        "price": 480,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-premium/6gb-premium-hytale/checkout?plan=356",
+          "threeMonths": "https://billing.caspian.host/products/hytale-premium/6gb-premium-hytale/checkout?plan=357",
+          "sixMonths": "https://billing.caspian.host/products/hytale-premium/6gb-premium-hytale/checkout?plan=358",
+          "yearly": "https://billing.caspian.host/products/hytale-premium/6gb-premium-hytale/checkout?plan=359"
+        }
+      },
+      {
+        "id": "ryzen-5800x-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 300,
+        "ram": 8,
+        "nvme": 20,
+        "price": 640,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-premium/8gb-premium-hytale/checkout?plan=360",
+          "threeMonths": "https://billing.caspian.host/products/hytale-premium/8gb-premium-hytale/checkout?plan=361",
+          "sixMonths": "https://billing.caspian.host/products/hytale-premium/8gb-premium-hytale/checkout?plan=362",
+          "yearly": "https://billing.caspian.host/products/hytale-premium/8gb-premium-hytale/checkout?plan=363"
+        }
+      },
+      {
+        "id": "ryzen-5800x-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 28,
+        "price": 960,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-premium/12gb-premium-hytale/checkout?plan=364",
+          "threeMonths": "https://billing.caspian.host/products/hytale-premium/12gb-premium-hytale/checkout?plan=365",
+          "sixMonths": "https://billing.caspian.host/products/hytale-premium/12gb-premium-hytale/checkout?plan=366",
+          "yearly": "https://billing.caspian.host/products/hytale-premium/12gb-premium-hytale/checkout?plan=367"
+        }
+      },
+      {
+        "id": "ryzen-5800x-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 36,
+        "price": 1199,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-premium/16gb-premium-hytale/checkout?plan=368",
+          "threeMonths": "https://billing.caspian.host/products/hytale-premium/16gb-premium-hytale/checkout?plan=369",
+          "sixMonths": "https://billing.caspian.host/products/hytale-premium/16gb-premium-hytale/checkout?plan=370",
+          "yearly": "https://billing.caspian.host/products/hytale-premium/16gb-premium-hytale/checkout?plan=371"
+        }
+      },
+      {
+        "id": "ryzen-5800x-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 56,
+        "price": 1920,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-premium/24gb-premium-hytale/checkout?plan=372",
+          "threeMonths": "https://billing.caspian.host/products/hytale-premium/24gb-premium-hytale/checkout?plan=373",
+          "sixMonths": "https://billing.caspian.host/products/hytale-premium/24gb-premium-hytale/checkout?plan=374",
+          "yearly": "https://billing.caspian.host/products/hytale-premium/24gb-premium-hytale/checkout?plan=375"
+        }
+      },
+      {
+        "id": "ryzen-5800x-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 800,
+        "ram": 32,
+        "nvme": 100,
+        "price": 2499,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-premium/32gb-premium-hytale/checkout?plan=376",
+          "threeMonths": "https://billing.caspian.host/products/hytale-premium/32gb-premium-hytale/checkout?plan=377",
+          "sixMonths": "https://billing.caspian.host/products/hytale-premium/32gb-premium-hytale/checkout?plan=378",
+          "yearly": "https://billing.caspian.host/products/hytale-premium/32gb-premium-hytale/checkout?plan=379"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 300,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/tickets",
+          "threeMonths": "https://billing.caspian.host/tickets",
+          "sixMonths": "https://billing.caspian.host/tickets",
+          "yearly": "https://billing.caspian.host/tickets"
+        }
+      }
+    ],
+    "ryzen-7900x": [
+      {
+        "id": "ryzen-7900x-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 50,
+        "ram": 1,
+        "nvme": 4,
+        "price": 110,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-ultra/1gb-ultra-hytale/checkout?plan=372",
+          "threeMonths": "https://billing.caspian.host/products/hytale-ultra/1gb-ultra-hytale/checkout?plan=373",
+          "sixMonths": "https://billing.caspian.host/products/hytale-ultra/1gb-ultra-hytale/checkout?plan=374",
+          "yearly": "https://billing.caspian.host/products/hytale-ultra/1gb-ultra-hytale/checkout?plan=375"
+        }
+      },
+      {
+        "id": "ryzen-7900x-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 20,
+        "price": 440,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-ultra/4gb-ultra-hytale/checkout?plan=376",
+          "threeMonths": "https://billing.caspian.host/products/hytale-ultra/4gb-ultra-hytale/checkout?plan=377",
+          "sixMonths": "https://billing.caspian.host/products/hytale-ultra/4gb-ultra-hytale/checkout?plan=378",
+          "yearly": "https://billing.caspian.host/products/hytale-ultra/4gb-ultra-hytale/checkout?plan=379"
+        }
+      },
+      {
+        "id": "ryzen-7900x-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 16,
+        "price": 660,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-ultra/6gb-ultra-hytale/checkout?plan=380",
+          "threeMonths": "https://billing.caspian.host/products/hytale-ultra/6gb-ultra-hytale/checkout?plan=381",
+          "sixMonths": "https://billing.caspian.host/products/hytale-ultra/6gb-ultra-hytale/checkout?plan=382",
+          "yearly": "https://billing.caspian.host/products/hytale-ultra/6gb-ultra-hytale/checkout?plan=383"
+        }
+      },
+      {
+        "id": "ryzen-7900x-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 300,
+        "ram": 8,
+        "nvme": 20,
+        "price": 880,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-ultra/8gb-ultra-hytale/checkout?plan=384",
+          "threeMonths": "https://billing.caspian.host/products/hytale-ultra/8gb-ultra-hytale/checkout?plan=385",
+          "sixMonths": "https://billing.caspian.host/products/hytale-ultra/8gb-ultra-hytale/checkout?plan=386",
+          "yearly": "https://billing.caspian.host/products/hytale-ultra/8gb-ultra-hytale/checkout?plan=387"
+        }
+      },
+      {
+        "id": "ryzen-7900x-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 400,
+        "ram": 12,
+        "nvme": 28,
+        "price": 1320,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-ultra/12gb-ultra-hytale/checkout?plan=388",
+          "threeMonths": "https://billing.caspian.host/products/hytale-ultra/12gb-ultra-hytale/checkout?plan=389",
+          "sixMonths": "https://billing.caspian.host/products/hytale-ultra/12gb-ultra-hytale/checkout?plan=390",
+          "yearly": "https://billing.caspian.host/products/hytale-ultra/12gb-ultra-hytale/checkout?plan=391"
+        }
+      },
+      {
+        "id": "ryzen-7900x-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 500,
+        "ram": 16,
+        "nvme": 36,
+        "price": 1760,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-ultra/16gb-ultra-hytale/checkout?plan=392",
+          "threeMonths": "https://billing.caspian.host/products/hytale-ultra/16gb-ultra-hytale/checkout?plan=393",
+          "sixMonths": "https://billing.caspian.host/products/hytale-ultra/16gb-ultra-hytale/checkout?plan=394",
+          "yearly": "https://billing.caspian.host/products/hytale-ultra/16gb-ultra-hytale/checkout?plan=395"
+        }
+      },
+      {
+        "id": "ryzen-7900x-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 600,
+        "ram": 24,
+        "nvme": 56,
+        "price": 2640,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-ultra/24gb-ultra-hytale/checkout?plan=396",
+          "threeMonths": "https://billing.caspian.host/products/hytale-ultra/24gb-ultra-hytale/checkout?plan=397",
+          "sixMonths": "https://billing.caspian.host/products/hytale-ultra/24gb-ultra-hytale/checkout?plan=398",
+          "yearly": "https://billing.caspian.host/products/hytale-ultra/24gb-ultra-hytale/checkout?plan=399"
+        }
+      },
+      {
+        "id": "ryzen-7900x-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 800,
+        "ram": 32,
+        "nvme": 100,
+        "price": 3520,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-ultra/32gb-ultra-hytale/checkout?plan=400",
+          "threeMonths": "https://billing.caspian.host/products/hytale-ultra/32gb-ultra-hytale/checkout?plan=401",
+          "sixMonths": "https://billing.caspian.host/products/hytale-ultra/32gb-ultra-hytale/checkout?plan=402",
+          "yearly": "https://billing.caspian.host/products/hytale-ultra/32gb-ultra-hytale/checkout?plan=403"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 0,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/tickets",
+          "threeMonths": "https://billing.caspian.host/tickets",
+          "sixMonths": "https://billing.caspian.host/tickets",
+          "yearly": "https://billing.caspian.host/tickets"
+        }
+      }
+    ],
+    "i7-7700k": [
+      {
+        "id": "i7-7700k-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 4,
+        "price": 130,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-2gb-advance-java/checkout?plan=404",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-2gb-advance-java/checkout?plan=405",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-2gb-advance-java/checkout?plan=406",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-2gb-advance-java/checkout?plan=407"
+        }
+      },
+      {
+        "id": "i7-7700k-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 8,
+        "price": 260,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-4gb-advance-java/checkout?plan=408",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-4gb-advance-java/checkout?plan=409",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-4gb-advance-java/checkout?plan=410",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-4gb-advance-java/checkout?plan=411"
+        }
+      },
+      {
+        "id": "i7-7700k-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 12,
+        "price": 390,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-6gb-advance-java/checkout?plan=412",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-6gb-advance-java/checkout?plan=413",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-6gb-advance-java/checkout?plan=414",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-6gb-advance-java/checkout?plan=415"
+        }
+      },
+      {
+        "id": "i7-7700k-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 250,
+        "ram": 8,
+        "nvme": 16,
+        "price": 520,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-8gb-advance-java/checkout?plan=416",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-8gb-advance-java/checkout?plan=417",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-8gb-advance-java/checkout?plan=418",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-8gb-advance-java/checkout?plan=419"
+        }
+      },
+      {
+        "id": "i7-7700k-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 24,
+        "price": 780,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-12gb-advance-java/checkout?plan=420",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-12gb-advance-java/checkout?plan=421",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-12gb-advance-java/checkout?plan=422",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-12gb-advance-java/checkout?plan=423"
+        }
+      },
+      {
+        "id": "i7-7700k-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 32,
+        "price": 1040,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-16gb-advance-java/checkout?plan=424",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-16gb-advance-java/checkout?plan=425",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-16gb-advance-java/checkout?plan=426",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-16gb-advance-java/checkout?plan=427"
+        }
+      },
+      {
+        "id": "i7-7700k-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 48,
+        "price": 1560,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-24gb-advance-javaa-mc/checkout?plan=428",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-24gb-advance-javaa-mc/checkout?plan=429",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-24gb-advance-javaa-mc/checkout?plan=430",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-24gb-advance-javaa-mc/checkout?plan=431"
+        }
+      },
+      {
+        "id": "i7-7700k-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 200,
+        "ram": 32,
+        "nvme": 64,
+        "price": 2080,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-32gb-advance-java/checkout?plan=432",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-32gb-advance-java/checkout?plan=433",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-32gb-advance-java/checkout?plan=434",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-32gb-advance-java/checkout?plan=435"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 200,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/tickets",
+          "threeMonths": "https://billing.caspian.host/tickets",
+          "sixMonths": "https://billing.caspian.host/tickets",
+          "yearly": "https://billing.caspian.host/tickets"
+        }
+      }
+    ],
+    "epyc-7531": [
+      {
+        "id": "epyc-7531-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 2,
+        "price": 50,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-budget/1gb-india-budget-hytale/checkout?plan=311",
+          "threeMonths": "https://billing.caspian.host/products/hytale-budget/1gb-india-budget-hytale/checkout?plan=312",
+          "sixMonths": "https://billing.caspian.host/products/hytale-budget/1gb-india-budget-hytale/checkout?plan=313",
+          "yearly": "https://billing.caspian.host/products/hytale-budget/1gb-india-budget-hytale/checkout?plan=314"
+        }
+      },
+      {
+        "id": "epyc-7531-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 4,
+        "price": 100,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-budget/2gb-india-budget-hytale/checkout?plan=312",
+          "threeMonths": "https://billing.caspian.host/products/hytale-budget/2gb-india-budget-hytale/checkout?plan=313",
+          "sixMonths": "https://billing.caspian.host/products/hytale-budget/2gb-india-budget-hytale/checkout?plan=314",
+          "yearly": "https://billing.caspian.host/products/hytale-budget/2gb-india-budget-hytale/checkout?plan=315"
+        }
+      },
+      {
+        "id": "epyc-7531-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 100,
+        "ram": 4,
+        "nvme": 8,
+        "price": 200,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-budget/4gb-india-budget-hytale/checkout?plan=316",
+          "threeMonths": "https://billing.caspian.host/products/hytale-budget/4gb-india-budget-hytale/checkout?plan=317",
+          "sixMonths": "https://billing.caspian.host/products/hytale-budget/4gb-india-budget-hytale/checkout?plan=318",
+          "yearly": "https://billing.caspian.host/products/hytale-budget/4gb-india-budget-hytale/checkout?plan=319"
+        }
+      },
+      {
+        "id": "epyc-7531-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 12,
+        "price": 300,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-budget/6gb-india-budget-hytale/checkout?plan=320",
+          "threeMonths": "https://billing.caspian.host/products/hytale-budget/6gb-india-budget-hytale/checkout?plan=321",
+          "sixMonths": "https://billing.caspian.host/products/hytale-budget/6gb-india-budget-hytale/checkout?plan=322",
+          "yearly": "https://billing.caspian.host/products/hytale-budget/6gb-india-budget-hytale/checkout?plan=323"
+        }
+      },
+      {
+        "id": "epyc-7531-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 250,
+        "ram": 8,
+        "nvme": 16,
+        "price": 400,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-budget/8gb-india-budget-hytale/checkout?plan=324",
+          "threeMonths": "https://billing.caspian.host/products/hytale-budget/8gb-india-budget-hytale/checkout?plan=325",
+          "sixMonths": "https://billing.caspian.host/products/hytale-budget/8gb-india-budget-hytale/checkout?plan=326",
+          "yearly": "https://billing.caspian.host/products/hytale-budget/8gb-india-budget-hytale/checkout?plan=327"
+        }
+      },
+      {
+        "id": "epyc-7531-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 24,
+        "price": 600,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-budget/12gb-india-budget-hytale/checkout?plan=328",
+          "threeMonths": "https://billing.caspian.host/products/hytale-budget/12gb-india-budget-hytale/checkout?plan=329",
+          "sixMonths": "https://billing.caspian.host/products/hytale-budget/12gb-india-budget-hytale/checkout?plan=330",
+          "yearly": "https://billing.caspian.host/products/hytale-budget/12gb-india-budget-hytale/checkout?plan=331"
+        }
+      },
+      {
+        "id": "epyc-7531-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 32,
+        "price": 800,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-budget/16gb-india-budget-hytale/checkout?plan=332",
+          "threeMonths": "https://billing.caspian.host/products/hytale-budget/16gb-india-budget-hytale/checkout?plan=333",
+          "sixMonths": "https://billing.caspian.host/products/hytale-budget/16gb-india-budget-hytale/checkout?plan=334",
+          "yearly": "https://billing.caspian.host/products/hytale-budget/16gb-india-budget-hytale/checkout?plan=335"
+        }
+      },
+      {
+        "id": "epyc-7531-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 48,
+        "price": 1099,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-budget/24gb-budget-hytale/checkout?plan=336",
+          "threeMonths": "https://billing.caspian.host/products/hytale-budget/24gb-budget-hytale/checkout?plan=337",
+          "sixMonths": "https://billing.caspian.host/products/hytale-budget/24gb-budget-hytale/checkout?plan=338",
+          "yearly": "https://billing.caspian.host/products/hytale-budget/24gb-budget-hytale/checkout?plan=339"
+        }
+      },
+      {
+        "id": "epyc-7531-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 700,
+        "ram": 32,
+        "nvme": 64,
+        "price": 1499,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/hytale-budget/32gb-india-budget-hytale/checkout?plan=340",
+          "threeMonths": "https://billing.caspian.host/products/hytale-budget/32gb-india-budget-hytale/checkout?plan=341",
+          "sixMonths": "https://billing.caspian.host/products/hytale-budget/32gb-india-budget-hytale/checkout?plan=342",
+          "yearly": "https://billing.caspian.host/products/hytale-budget/32gb-india-budget-hytale/checkout?plan=343"
+        }
+      }
+    ]
+  }
+}

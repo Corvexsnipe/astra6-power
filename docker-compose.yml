@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=mysql://mysql:3Qed32td8bS5Jw1G12v9Ydrpd4sCriNb4GFROuueQ2SneGqVA48KFnxwBtUk7XjG@edkiolselorf4b4ohoocpjaf:3306/default
+      - EMAIL_HOST=${EMAIL_HOST:-smtp.zeptomail.in}
+      - EMAIL_PORT=${EMAIL_PORT:-587}
+      - EMAIL_USER=${EMAIL_USER:-emailapikey}
+      - EMAIL_PASS=${EMAIL_PASS}
+      - EMAIL_FROM=${EMAIL_FROM:-work@caspianhost.com}
+      - ADMIN_EMAIL=${ADMIN_EMAIL:-caspiannode@gmail.com}
+    restart: unless-stopped
+    extra_hosts:
+      - "edkiolselorf4b4ohoocpjaf:host-gateway"

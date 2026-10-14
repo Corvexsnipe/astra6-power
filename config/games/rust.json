@@ -1,0 +1,129 @@
+{
+  "name": "Rust",
+  "slug": "rust",
+  "image": "/images/rust.png",
+  "heroImage": "/images/rust-bg.webp",
+  "description": "Survive, raid, and dominate on high-clock speed hardware built for Rust.",
+  "cpuModels": [
+    {
+      "name": "AMD EPYC 9/7",
+      "pricePerGb": 100
+    },
+    {
+      "name": "Ryzen 9 7900X/9950X",
+      "pricePerGb": 150
+    }
+  ],
+  "plans": [
+    {
+      "ram": "4GB",
+      "cpu": "300",
+      "ssd": "40GB",
+      "priceEpyc": 400,
+      "priceRyzen": 600,
+      "playerSlots": "Unlimited",
+      "checkoutEpyc": "https://billing.caspian.host/products/rust/rust-4gb-budget",
+      "checkoutRyzen": "https://billing.caspian.host/products/rust/rust-performance-4gb"
+    },
+    {
+      "ram": "6GB",
+      "cpu": "350",
+      "ssd": "60GB",
+      "priceEpyc": 600,
+      "priceRyzen": 900,
+      "playerSlots": "Unlimited",
+      "checkoutEpyc": "https://billing.caspian.host/products/rust/rust-6gb-budget",
+      "checkoutRyzen": "https://billing.caspian.host/products/rust/rust-performance-6gb"
+    },
+    {
+      "ram": "8GB",
+      "cpu": "400",
+      "ssd": "80GB",
+      "priceEpyc": 800,
+      "priceRyzen": 1200,
+      "playerSlots": "Unlimited",
+      "checkoutEpyc": "https://billing.caspian.host/products/rust/rust-8gb-budget",
+      "checkoutRyzen": "https://billing.caspian.host/products/rust/rust-performance-6-gb"
+    },
+    {
+      "ram": "10GB",
+      "cpu": "500",
+      "ssd": "100GB",
+      "priceEpyc": 1000,
+      "priceRyzen": 1500,
+      "playerSlots": "Unlimited",
+      "checkoutEpyc": "https://billing.caspian.host/products/rust/rust-10gb-budget",
+      "checkoutRyzen": "https://billing.caspian.host/products/rust/rust-performance-10gb"
+    },
+    {
+      "ram": "12GB",
+      "cpu": "500",
+      "ssd": "120GB",
+      "priceEpyc": 1200,
+      "priceRyzen": 1800,
+      "playerSlots": "Unlimited",
+      "checkoutEpyc": "https://billing.caspian.host/products/rust/rust-12gb-budget",
+      "checkoutRyzen": "https://billing.caspian.host/products/rust/rust-performance-12gb"
+    },
+    {
+      "ram": "16GB",
+      "cpu": "600",
+      "ssd": "160GB",
+      "priceEpyc": 1600,
+      "priceRyzen": 2400,
+      "playerSlots": "Unlimited",
+      "checkoutEpyc": "https://billing.caspian.host/products/rust/rust-16gb-budget",
+      "checkoutRyzen": "https://billing.caspian.host/products/rust/rust-performance-16gb"
+    },
+    {
+      "ram": "20GB",
+      "cpu": "700",
+      "ssd": "200GB",
+      "priceEpyc": 2000,
+      "priceRyzen": 3000,
+      "playerSlots": "Unlimited",
+      "checkoutEpyc": "https://billing.caspian.host/products/rust/rust-20gb-budget",
+      "checkoutRyzen": "https://billing.caspian.host/products/rust/rust-performance-20gb"
+    },
+    {
+      "ram": "24GB",
+      "cpu": "800",
+      "ssd": "200GB",
+      "priceEpyc": 2400,
+      "priceRyzen": 3600,
+      "playerSlots": "Unlimited",
+      "checkoutEpyc": "https://billing.caspian.host/products/rust/rust-24gb-budget",
+      "checkoutRyzen": "https://billing.caspian.host/products/rust/rust-performance-24gb"
+    },
+    {
+      "ram": "32GB",
+      "cpu": "900",
+      "ssd": "250GB",
+      "priceEpyc": 3200,
+      "priceRyzen": 4800,
+      "playerSlots": "Unlimited",
+      "checkoutEpyc": "https://billing.caspian.host/products/rust/rust-32gb-budget",
+      "checkoutRyzen": "https://billing.caspian.host/products/rust/rust-performance-32gb"
+    },
+    {
+      "ram": "48GB",
+      "cpu": "1000",
+      "ssd": "300GB",
+      "priceEpyc": 4800,
+      "priceRyzen": 7200,
+      "playerSlots": "Unlimited",
+      "checkoutEpyc": "https://billing.caspian.host/products/rust/rust-48gb-budget",
+      "checkoutRyzen": "https://billing.caspian.host/products/rust/rust-performance-48gb"
+    },
+    {
+      "ram": "64GB",
+      "cpu": "1200",
+      "ssd": "400GB",
+      "priceEpyc": 6400,
+      "priceRyzen": 9600,
+      "playerSlots": "Unlimited",
+      "checkoutEpyc": "https://billing.caspian.host/products/rust/rust-64gb-budget",
+      "checkoutRyzen": "https://billing.caspian.host/products/rust/rust-performance-64gb"
+    }
+  ]
+}

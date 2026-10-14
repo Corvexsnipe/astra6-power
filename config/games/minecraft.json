@@ -1,0 +1,22 @@
+{
+  "name": "Minecraft",
+  "slug": "minecraft",
+  "currency": "INR",
+  "image": "/images/mc.png",
+  "heroImage": "/images/minecraft-bg.webp",
+  "description": "Deploy high-performance Minecraft instances on our lag-free edge network with premium DDoS protection.",
+  "plans": [
+    { "ram": "2GB", "cpu": "1", "ssd": "4GB", "price": 100, "link": "" },
+    { "ram": "4GB", "cpu": "2", "ssd": "8GB", "price": 200, "link": "" },
+    { "ram": "8GB", "cpu": "4", "ssd": "16GB", "price": 400, "link": "" },
+    { "ram": "12GB", "cpu": "5", "ssd": "24GB", "price": 600, "link": "" },
+    { "ram": "16GB", "cpu": "6", "ssd": "32GB", "price": 800, "link": "" },
+    { "ram": "20GB", "cpu": "7", "ssd": "40GB", "price": 1000, "link": "" },
+    { "ram": "24GB", "cpu": "8", "ssd": "48GB", "price": 1200, "link": "" },
+    { "ram": "28GB", "cpu": "9", "ssd": "56GB", "price": 1400, "link": "" },
+    { "ram": "32GB", "cpu": "10", "ssd": "64GB", "price": 1600, "link": "" },
+    { "ram": "48GB", "cpu": "11", "ssd": "96GB", "price": 2400, "link": "" },
+    { "ram": "64GB", "cpu": "12", "ssd": "128GB", "price": 3200, "link": "" },
+    { "ram": "96GB", "cpu": "16", "ssd": "192GB", "price": 4800, "link": "" }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Refund Policy",
+  "company": "Caspian Host",
+  "lastUpdated": "23-05-2026",
+  "importantNotice": {
+    "type": "red-box",
+    "title": "Important Refund Notice",
+    "desc": "Cancelling a service directly from the billing panel or client area does NOT automatically create a refund request and does NOT guarantee a refund. Customers must manually contact the Caspian Host support team and create a proper refund ticket within the allowed 4-hour refund period.\n\nFailure to contact support manually may result in the refund request being ignored because our staff may not be aware that a refund was requested.\n\nRefund tickets usually receive a response within 24 hours depending on ticket volume and investigation requirements."
+  },
+  "description": "This Refund Policy outlines the conditions, limitations, and procedures under which Caspian Host may provide refunds for hosting services including game servers, VPS hosting, dedicated servers, and related infrastructure services.",
+  "policies": [
+    {
+      "title": "1. Refund Eligibility",
+      "desc": "Refund requests are only eligible if submitted within 4 hours of the initial service purchase or activation, regardless of the billing cycle selected. This policy applies equally to monthly, quarterly (3 months), semi-annual (6 months), and yearly hosting plans. Customers purchasing long-term plans do not receive extended refund periods.\n\nFor example, if a customer purchases a 3-month, 6-month, or yearly hosting plan, they still only have 4 hours from the time of activation to request a refund. Refund requests submitted days, weeks, or months later will not be accepted under any circumstances simply because the customer no longer wishes to continue the service.\n\nRefunds are only considered for genuine technical issues directly related to Caspian Host infrastructure or service quality and must include proper proof and explanation of the issue."
+    },
+    {
+      "title": "2. Valid Reason & Proof Requirement",
+      "desc": "Customers requesting a refund must provide a clear and valid explanation of the issue experienced with the service along with proper proof or evidence demonstrating the problem. This may include screenshots, video recordings, error logs, performance evidence, or live demonstrations requested by staff. A member of the Caspian Host staff team may contact the customer for additional verification or troubleshooting before any decision is made."
+    },
+    {
+      "title": "3. Verification & Investigation Process",
+      "desc": "All refund requests are manually reviewed and investigated by the Caspian Host management or support team. Customers may be required to cooperate during the verification process and demonstrate the reported issue. Refunds will only be approved if the reported problem is verified as a legitimate service-related issue caused by our infrastructure or platform."
+    },
+    {
+      "title": "4. Invalid Refund Reasons",
+      "desc": "Refunds will NOT be approved for reasons such as changing your mind, no longer needing the service, accidental purchases, lack of technical knowledge, personal financial situations, inactivity, or requests simply stating that you want your money back. Unsupported or vague claims without proof will also be rejected. False, misleading, or abusive refund claims may result in account suspension or permanent denial of future services."
+    },
+    {
+      "title": "5. Non-Refundable Services",
+      "desc": "Certain services are strictly non-refundable under all circumstances, including but not limited to dedicated servers, domain registrations, setup fees, add-ons, custom configurations, software licenses, upgrade fees, one-time services, abuse-related suspensions, and services terminated due to Terms of Service violations. Renewals and manually upgraded services are also non-refundable."
+    },
+    {
+      "title": "6. Refund Mode & Processing Time",
+      "desc": "Approved refunds will be processed using the same payment method that was used for the original purchase. Refunds are typically processed within 5–10 business days depending on the payment gateway, banking institution, and transaction method used. Processing times may vary and are outside the direct control of Caspian Host once the refund has been issued."
+    },
+    {
+      "title": "7. Service Suspension After Refund",
+      "desc": "Once a refund is approved and processed, the associated hosting service will be immediately suspended or permanently terminated. All files, backups, game server data, databases, and configurations associated with the refunded service may be permanently deleted without recovery. Customers are strongly advised to create and download backups before requesting a refund."
+    },
+    {
+      "title": "8. Abuse of Refund Policy",
+      "desc": "Any attempt to abuse, exploit, manipulate, or fraudulently use the refund system will result in immediate denial of the refund request and may lead to suspension, account termination, blacklisting, or permanent restriction from using Caspian Host services in the future."
+    },
+    {
+      "title": "9. Exceptional Cases",
+      "desc": "In rare circumstances, Caspian Host may issue partial refunds, account credits, or service compensation outside the standard refund policy if a major verified infrastructure failure, billing error, or severe service issue occurs. Such decisions are made solely at the discretion of Caspian Host management and are considered final."
+    }
+  ]
+}

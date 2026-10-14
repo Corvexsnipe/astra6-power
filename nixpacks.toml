@@ -1,0 +1,17 @@
+[phases.build]
+cmds = ["npm run build"]
+
+[phases.start]
+cmd = "npm start"
+
+[phases.install]
+cmds = ["npm ci"]
+
+[variables]
+NODE_ENV = "production"
+PORT = "3000"
+
+[deploy]
+healthcheckPath = "/"
+healthcheckTimeout = 300
+restartPolicyType = "on-failure"

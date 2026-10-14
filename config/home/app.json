@@ -1,0 +1,11 @@
+{
+  "site": {
+    "name": "Caspian Host",
+    "description": "Enjoy lag-free gaming with our high-performance game servers, optimized for speed and reliability. Experience seamless multiplayer action with low latency and DDoS protection.",
+    "url": "https://caspianhost.com",
+    "themeColor": "#a684ff",
+    "ogImage": "/images/og-image.png",
+    "logo": "/images/removed-white0--logo.png",
+    "twitter": "@caspianhost"
+  }
+}

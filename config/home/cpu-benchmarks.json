@@ -1,0 +1,58 @@
+{
+  "statusLabels": [
+    "Initializing Benchmark Engine…",
+    "Running Enterprise Performance Scan…",
+    "Analyzing Multi-Core Throughput…",
+    "Measuring Single-Thread Performance…"
+  ],
+  "cpus": [
+    {
+      "id": "epyc-7513",
+      "name": "AMD EPYC 7513",
+      "vendor": "amd",
+      "ghz": 3.6,
+      "ghzLabel": "3.2 GHz boost",
+      "cores": 32,
+      "threads": 64,
+      "singleThreadRating": 2534,
+      "badge": "Enterprise Optimized",
+      "badgeStyle": "cyan"
+    },
+    {
+      "id": "epyc-9474f",
+      "name": "AMD EPYC 9474F",
+      "vendor": "amd",
+      "ghz": 4.2,
+      "ghzLabel": "3.6 GHz boost",
+      "cores": 48,
+      "threads": 96,
+      "singleThreadRating": 2487,
+      "badge": "Ultra Performance",
+      "badgeStyle": "violet"
+    },
+    {
+      "id": "ryzen-5800x",
+      "name": "Ryzen 7 5800X",
+      "vendor": "amd",
+      "ghz": 4.7,
+      "ghzLabel": "4.7 GHz boost",
+      "cores": 8,
+      "threads": 16,
+      "singleThreadRating": 3448,
+      "badge": "Gaming Optimized",
+      "badgeStyle": "emerald"
+    },
+    {
+      "id": "ryzen-7900x",
+      "name": "Ryzen 9 7900X",
+      "vendor": "amd",
+      "ghz": 5.6,
+      "ghzLabel": "5.6 GHz boost",
+      "cores": 12,
+      "threads": 24,
+      "singleThreadRating": 2928,
+      "badge": "High Frequency",
+      "badgeStyle": "fuchsia"
+    }
+  ]
+}

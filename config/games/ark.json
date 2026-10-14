@@ -1,0 +1,129 @@
+{
+  "name": "Ark of Survival",
+  "slug": "ark",
+  "image": "/images/arkofsurvival.jpg",
+  "heroImage": "/images/arkofsurvival.jpg",
+  "description": "Survive, tame, and dominate on high-performance hardware built for Ark of Survival.",
+  "cpuModels": [
+    {
+      "name": "AMD EPYC 9/7",
+      "pricePerGb": 100
+    },
+    {
+      "name": "Ryzen 9 7900X/9950X",
+      "pricePerGb": 150
+    }
+  ],
+  "plans": [
+    {
+      "ram": "4GB",
+      "cpu": "300",
+      "ssd": "40GB",
+      "priceEpyc": 400,
+      "priceRyzen": 600,
+      "playerSlots": "Unlimited",
+      "linkEpyc": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-4gb-budget",
+      "linkRyzen": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-performance-4gb"
+    },
+    {
+      "ram": "6GB",
+      "cpu": "350",
+      "ssd": "60GB",
+      "priceEpyc": 600,
+      "priceRyzen": 900,
+      "playerSlots": "Unlimited",
+      "linkEpyc": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-6gb-budget",
+      "linkRyzen": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-performance-6gb"
+    },
+    {
+      "ram": "8GB",
+      "cpu": "400",
+      "ssd": "80GB",
+      "priceEpyc": 800,
+      "priceRyzen": 1200,
+      "playerSlots": "Unlimited",
+      "linkEpyc": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-8gb-budget",
+      "linkRyzen": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-performance-8gb"
+    },
+    {
+      "ram": "10GB",
+      "cpu": "500",
+      "ssd": "100GB",
+      "priceEpyc": 1000,
+      "priceRyzen": 1500,
+      "playerSlots": "Unlimited",
+      "linkEpyc": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-10gb-budget",
+      "linkRyzen": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-performance-10gb"
+    },
+    {
+      "ram": "12GB",
+      "cpu": "500",
+      "ssd": "120GB",
+      "priceEpyc": 1200,
+      "priceRyzen": 1800,
+      "playerSlots": "Unlimited",
+      "linkEpyc": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-12gb-budget",
+      "linkRyzen": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-performance-12gb"
+    },
+    {
+      "ram": "16GB",
+      "cpu": "600",
+      "ssd": "160GB",
+      "priceEpyc": 1600,
+      "priceRyzen": 2400,
+      "playerSlots": "Unlimited",
+      "linkEpyc": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-16gb-budget",
+      "linkRyzen": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-performance-16gb"
+    },
+    {
+      "ram": "20GB",
+      "cpu": "700",
+      "ssd": "200GB",
+      "priceEpyc": 2000,
+      "priceRyzen": 3000,
+      "playerSlots": "Unlimited",
+      "linkEpyc": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-20gb-budget",
+      "linkRyzen": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-performance-20gb"
+    },
+    {
+      "ram": "24GB",
+      "cpu": "800",
+      "ssd": "200GB",
+      "priceEpyc": 2400,
+      "priceRyzen": 3600,
+      "playerSlots": "Unlimited",
+      "linkEpyc": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-24gb-budget",
+      "linkRyzen": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-performance-24gb"
+    },
+    {
+      "ram": "32GB",
+      "cpu": "900",
+      "ssd": "250GB",
+      "priceEpyc": 3200,
+      "priceRyzen": 4800,
+      "playerSlots": "Unlimited",
+      "linkEpyc": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-32gb-budget",
+      "linkRyzen": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-performance-32gb"
+    },
+    {
+      "ram": "48GB",
+      "cpu": "1000",
+      "ssd": "300GB",
+      "priceEpyc": 4800,
+      "priceRyzen": 7200,
+      "playerSlots": "Unlimited",
+      "linkEpyc": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-48gb-budget",
+      "linkRyzen": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-performance-48gb"
+    },
+    {
+      "ram": "64GB",
+      "cpu": "1200",
+      "ssd": "400GB",
+      "priceEpyc": 6400,
+      "priceRyzen": 9600,
+      "playerSlots": "Unlimited",
+      "linkEpyc": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-64gb-budget",
+      "linkRyzen": "https://billing.caspian.host/products/ark-of-survival-hosting/ark-of-survival-performance-64gb"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Dedicated Servers",
+  "heroImage": "/images/map-violet.svg",
+  "description": "Unlock full control and unparalleled performance with our dedicated servers. Perfect for businesses and developers who demands best.",
+  "plans": [
+    {
+      "name": "ULTRA-01",
+      "location": "de",
+      "ram": "64GB",
+      "cpu": "Intel i9-13900K",
+      "ssd": "2x 1TB NVMe",
+      "uplink": "1 Gbit/s",
+      "bandwidth": "Unlimited",
+      "protection": "Dataforest",
+      "price": 120.00,
+      "link": "#"
+    },
+    {
+      "name": "ULTRA-02",
+      "location": "nl",
+      "ram": "128GB",
+      "cpu": "AMD Ryzen 9 7950X",
+      "ssd": "2x 2TB NVMe",
+      "uplink": "10 Gbit/s",
+      "bandwidth": "100TB",
+      "protection": "NeoProtect",
+      "price": 185.00,
+      "link": "#"
+    },
+    {
+      "name": "ULTRA-03",
+      "location": "us",
+      "ram": "256GB",
+      "cpu": "Dual AMD EPYC 7742",
+      "ssd": "4x 2TB NVMe",
+      "uplink": "10 Gbit/s",
+      "bandwidth": "200TB",
+      "protection": "TCP Shield",
+      "price": 350.00,
+      "link": "#"
+    },
+    {
+      "name": "ULTRA-04",
+      "location": "sg",
+      "ram": "512GB",
+      "cpu": "Dual Intel Xeon Platinum 8280",
+      "ssd": "4x 4TB NVMe",
+      "uplink": "10 Gbit/s",
+      "bandwidth": "500TB",
+      "protection": "Custom Built",
+      "price": 700.00,
+      "link": "#"
+    }
+  ]
+}

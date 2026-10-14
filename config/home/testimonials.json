@@ -1,0 +1,130 @@
+{
+  "header": {
+    "title": "Trusted by Thousands",
+    "accent": "of Indian Gamers",
+    "description": "Real feedback from Minecraft communities across India — blazing performance, instant setup, and support that actually replies."
+  },
+  "trustpilotUrl": "https://trustpilot.com/review/caspian-host.xyz",
+  "reviews": [
+    {
+      "name": "Arjun Sharma",
+      "handle": "@arjun_smp · Mumbai",
+      "rating": 5,
+      "text": "Bhai, TPS is solid even with 40+ players on modded. Setup took under a minute and ping from Mumbai is crazy low."
+    },
+    {
+      "name": "Priya Patel",
+      "handle": "@priya_crafts · Ahmedabad",
+      "rating": 5,
+      "text": "Switched from another host last month. Zero lag during events and backups saved our SMP twice already. Worth every rupee."
+    },
+    {
+      "name": "Rahul Verma",
+      "handle": "@rahul_redstone · Delhi",
+      "rating": 5,
+      "text": "Panel is clean, file manager is fast, and support answered on Discord within minutes. Best hosting I've used in India."
+    },
+    {
+      "name": "Ananya Iyer",
+      "handle": "@ananya_builds · Bengaluru",
+      "rating": 5,
+      "text": "Running a creative server for our college club — no crashes, smooth chunk loading, and pricing is honestly unbeatable."
+    },
+    {
+      "name": "Vikram Singh",
+      "handle": "@vikram_pvp · Jaipur",
+      "rating": 5,
+      "text": "Bedrock and Java both run smooth on the Singapore node for our mixed community. DDoS protection actually works."
+    },
+    {
+      "name": "Kavya Nair",
+      "handle": "@kavya_survival · Kochi",
+      "rating": 5,
+      "text": "Plugin installer is a lifesaver. Deployed LuckPerms and Essentials in clicks. Uptime has been 99.9% for us."
+    },
+    {
+      "name": "Rohan Mehta",
+      "handle": "@rohan_minigames · Pune",
+      "rating": 5,
+      "text": "We host weekend minigame events — 60 players, no rubber-banding. Caspian Host is our permanent home now."
+    },
+    {
+      "name": "Isha Gupta",
+      "handle": "@isha_skyblock · Lucknow",
+      "rating": 5,
+      "text": "Skyblock economy server runs buttery smooth. NVMe storage shows — world saves are instant after restarts."
+    },
+    {
+      "name": "Aditya Joshi",
+      "handle": "@aditya_modded · Nagpur",
+      "rating": 5,
+      "text": "Heavy modpack on Ryzen tier — no joke, best performance per rupee. Migration from old host was painless."
+    },
+    {
+      "name": "Sneha Reddy",
+      "handle": "@sneha_lifesteal · Hyderabad",
+      "rating": 5,
+      "text": "Lifesteal SMP with 35 players online peak. Support helped tune JVM flags. Five stars, no question."
+    },
+    {
+      "name": "Karan Malhotra",
+      "handle": "@karan_factions · Chandigarh",
+      "rating": 5,
+      "text": "Faction wars every Sunday — zero downtime during raids. Panel console is responsive and easy for our mods."
+    },
+    {
+      "name": "Divya Krishnan",
+      "handle": "@divya_bedrock · Chennai",
+      "rating": 5,
+      "text": "Bedrock realm for family & friends in Tamil Nadu. Low ping, simple billing in INR. Highly recommend."
+    },
+    {
+      "name": "Amit Desai",
+      "handle": "@amit_technical · Surat",
+      "rating": 5,
+      "text": "As a server owner for 3 years, this is the most stable node I've rented. Benchmarks match what they advertise."
+    },
+    {
+      "name": "Pooja Bansal",
+      "handle": "@pooja_creative · Indore",
+      "rating": 5,
+      "text": "WorldEdit schematics upload fast, subusers work perfectly for our build team. Premium feel at budget price."
+    },
+    {
+      "name": "Harsh Yadav",
+      "handle": "@harsh_hardcore · Bhopal",
+      "rating": 5,
+      "text": "Hardcore world with 20 slots — not a single unexpected restart in two months. Trustworthy Indian hosting."
+    },
+    {
+      "name": "Neha Kapoor",
+      "handle": "@neha_community · Noida",
+      "rating": 5,
+      "text": "Our Discord community of 2k members loves the server stability. Onboarding new players is super easy."
+    },
+    {
+      "name": "Suresh Iyer",
+      "handle": "@suresh_vanilla · Coimbatore",
+      "rating": 5,
+      "text": "Vanilla SMP for old school friends — feels like playing on local LAN. Support team understands Minecraft properly."
+    },
+    {
+      "name": "Meera Shah",
+      "handle": "@meera_events · Vadodara",
+      "rating": 5,
+      "text": "Hosted a 48-hour charity stream event — server held up flawlessly. Will upgrade RAM next month for sure."
+    },
+    {
+      "name": "Varun Nambiar",
+      "handle": "@varun_oneblock · Thiruvananthapuram",
+      "rating": 5,
+      "text": "OneBlock progression server — chunk gen is fast, no lag spikes. Best decision for our Malayali player base."
+    },
+    {
+      "name": "Ritika Chopra",
+      "handle": "@ritika_network · Kolkata",
+      "rating": 5,
+      "text": "Running a small network of 3 servers under one account. Billing is clear, panel is pro-level. 5/5 from Kolkata."
+    }
+  ]
+}

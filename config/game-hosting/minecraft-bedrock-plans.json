@@ -1,0 +1,924 @@
+{
+  "cpuModels": [
+    {
+      "id": "india-starter",
+      "name": "AMD EPYC 7272",
+      "tier": "India Starter",
+      "description": "Entry level · budget friendly"
+    },
+    {
+      "id": "epyc-7513",
+      "name": "AMD EPYC 7513",
+      "tier": "India Budget",
+      "description": "Enterprise · high core count"
+    },
+    {
+      "id": "epyc-9474f",
+      "name": "AMD EPYC 9474F",
+      "tier": "India Advance",
+      "description": "High frequency EPYC"
+    },
+    {
+      "id": "ryzen-5800x",
+      "name": "Ryzen 7 5800X",
+      "tier": "India Premium",
+      "description": "8 cores · strong single-thread"
+    },
+    {
+      "id": "ryzen-7900x",
+      "name": "Ryzen 9 7900X",
+      "tier": "India Ultra",
+      "description": "Zen 4 · peak gaming clocks"
+    },
+    {
+      "id": "i7-7700k",
+      "name": "Intel Core i7-7700K",
+      "tier": "Singapore Premium",
+      "description": "4 cores · 8 threads · high clocks"
+    }
+  ],
+  "plansByCpu": {
+    "india-starter": [
+      {
+        "id": "india-starter-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 2,
+        "price": 30,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/starter-bedrock/1gb-starter-bedrock/checkout?plan=527",
+          "threeMonths": "https://billing.caspian.host/products/starter-bedrock/1gb-starter-bedrock/checkout?plan=528",
+          "sixMonths": "https://billing.caspian.host/products/starter-bedrock/1gb-starter-bedrock/checkout?plan=529",
+          "yearly": "https://billing.caspian.host/products/starter-bedrock/1gb-starter-bedrock/checkout?plan=530"
+        }
+      },
+      {
+        "id": "india-starter-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 6,
+        "price": 60,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/starter-bedrock/2gb-india-starter-mcbedrock/checkout?plan=531",
+          "threeMonths": "https://billing.caspian.host/products/starter-bedrock/2gb-india-starter-mcbedrock/checkout?plan=532",
+          "sixMonths": "https://billing.caspian.host/products/starter-bedrock/2gb-india-starter-mcbedrock/checkout?plan=533",
+          "yearly": "https://billing.caspian.host/products/starter-bedrock/2gb-india-starter-mcbedrock/checkout?plan=534"
+        }
+      },
+      {
+        "id": "india-starter-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 100,
+        "ram": 4,
+        "nvme": 10,
+        "price": 120,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/starter-bedrock/4gb-india-starter-mcbedrock/checkout?plan=535",
+          "threeMonths": "https://billing.caspian.host/products/starter-bedrock/4gb-india-starter-mcbedrock/checkout?plan=536",
+          "sixMonths": "https://billing.caspian.host/products/starter-bedrock/4gb-india-starter-mcbedrock/checkout?plan=537",
+          "yearly": "https://billing.caspian.host/products/starter-bedrock/4gb-india-starter-mcbedrock/checkout?plan=538"
+        }
+      },
+      {
+        "id": "india-starter-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 14,
+        "price": 180,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/starter-bedrock/6gb-india-starter-mcbedrock/checkout?plan=539",
+          "threeMonths": "https://billing.caspian.host/products/starter-bedrock/6gb-india-starter-mcbedrock/checkout?plan=540",
+          "sixMonths": "https://billing.caspian.host/products/starter-bedrock/6gb-india-starter-mcbedrock/checkout?plan=541",
+          "yearly": "https://billing.caspian.host/products/starter-bedrock/6gb-india-starter-mcbedrock/checkout?plan=542"
+        }
+      },
+      {
+        "id": "india-starter-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 250,
+        "ram": 8,
+        "nvme": 18,
+        "price": 240,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/starter-bedrock/8gb-india-starter-mcbedrock/checkout?plan=543",
+          "threeMonths": "https://billing.caspian.host/products/starter-bedrock/8gb-india-starter-mcbedrock/checkout?plan=544",
+          "sixMonths": "https://billing.caspian.host/products/starter-bedrock/8gb-india-starter-mcbedrock/checkout?plan=545",
+          "yearly": "https://billing.caspian.host/products/starter-bedrock/8gb-india-starter-mcbedrock/checkout?plan=546"
+        }
+      },
+      {
+        "id": "india-starter-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 26,
+        "price": 360,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/starter-bedrock/12gb-india-starter-mcbedrock/checkout?plan=547",
+          "threeMonths": "https://billing.caspian.host/products/starter-bedrock/12gb-india-starter-mcbedrock/checkout?plan=548",
+          "sixMonths": "https://billing.caspian.host/products/starter-bedrock/12gb-india-starter-mcbedrock/checkout?plan=549",
+          "yearly": "https://billing.caspian.host/products/starter-bedrock/12gb-india-starter-mcbedrock/checkout?plan=550"
+        }
+      },
+      {
+        "id": "india-starter-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 34,
+        "price": 480,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/starter-bedrock/16gb-india-starter-mcbedrock/checkout?plan=551",
+          "threeMonths": "https://billing.caspian.host/products/starter-bedrock/16gb-india-starter-mcbedrock/checkout?plan=552",
+          "sixMonths": "https://billing.caspian.host/products/starter-bedrock/16gb-india-starter-mcbedrock/checkout?plan=553",
+          "yearly": "https://billing.caspian.host/products/starter-bedrock/16gb-india-starter-mcbedrock/checkout?plan=554"
+        }
+      },
+      {
+        "id": "india-starter-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 50,
+        "price": 720,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/starter-bedrock/24gb-starter-bedrockbedrock/checkout?plan=559",
+          "threeMonths": "https://billing.caspian.host/products/starter-bedrock/24gb-starter-bedrockbedrock/checkout?plan=560",
+          "sixMonths": "https://billing.caspian.host/products/starter-bedrock/24gb-starter-bedrockbedrock/checkout?plan=561",
+          "yearly": "https://billing.caspian.host/products/starter-bedrock/24gb-starter-bedrockbedrock/checkout?plan=562"
+        }
+      },
+      {
+        "id": "india-starter-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 700,
+        "ram": 32,
+        "nvme": 66,
+        "price": 960,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/starter-bedrock/32gb-india-starter-mcbedrock/checkout?plan=555",
+          "threeMonths": "https://billing.caspian.host/products/starter-bedrock/32gb-india-starter-mcbedrock/checkout?plan=556",
+          "sixMonths": "https://billing.caspian.host/products/starter-bedrock/32gb-india-starter-mcbedrock/checkout?plan=557",
+          "yearly": "https://billing.caspian.host/products/starter-bedrock/32gb-india-starter-mcbedrock/checkout?plan=558"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 0,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/tickets",
+          "threeMonths": "https://billing.caspian.host/tickets",
+          "sixMonths": "https://billing.caspian.host/tickets",
+          "yearly": "https://billing.caspian.host/tickets"
+        }
+      }
+    ],
+    "epyc-7513": [
+      {
+        "id": "epyc-7513-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 2,
+        "price": 50,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-budget/1gb-india-budget-mc-bedrock/checkout?plan=150",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/1gb-india-budget-mc-bedrock/checkout?plan=151",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/1gb-india-budget-mc-bedrock/checkout?plan=152",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-budget/1gb-india-budget-mc-bedrock/checkout?plan=153"
+        }
+      },
+      {
+        "id": "epyc-7513-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 10,
+        "price": 100,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-budget/2gb-india-budget-mc-bedrock/checkout?plan=151",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/2gb-india-budget-mc-bedrock/checkout?plan=152",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/2gb-india-budget-mc-bedrock/checkout?plan=153",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-budget/2gb-india-budget-mc-bedrock/checkout?plan=154"
+        }
+      },
+      {
+        "id": "epyc-7513-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 100,
+        "ram": 4,
+        "nvme": 14,
+        "price": 200,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-budget/4gb-india-budget-mc-bedrock/checkout?plan=155",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/4gb-india-budget-mc-bedrock/checkout?plan=156",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/4gb-india-budget-mc-bedrock/checkout?plan=157",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-budget/4gb-india-budget-mc-bedrock/checkout?plan=158"
+        }
+      },
+      {
+        "id": "epyc-7513-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 18,
+        "price": 300,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-budget/6gb-india-budget-mc-bedrock/checkout?plan=159",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/6gb-india-budget-mc-bedrock/checkout?plan=160",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/6gb-india-budget-mc-bedrock/checkout?plan=161",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-budget/6gb-india-budget-mc-bedrock/checkout?plan=162"
+        }
+      },
+      {
+        "id": "epyc-7513-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 250,
+        "ram": 8,
+        "nvme": 22,
+        "price": 400,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-budget/8gb-india-budget-mc-bedrock/checkout?plan=163",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/8gb-india-budget-mc-bedrock/checkout?plan=164",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/8gb-india-budget-mc-bedrock/checkout?plan=165",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-budget/8gb-india-budget-mc-bedrock/checkout?plan=166"
+        }
+      },
+      {
+        "id": "epyc-7513-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 30,
+        "price": 600,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-budget/12gb-india-budget-mc-bedrock/checkout?plan=167",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/12gb-india-budget-mc-bedrock/checkout?plan=168",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/12gb-india-budget-mc-bedrock/checkout?plan=169",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-budget/12gb-india-budget-mc-bedrock/checkout?plan=170"
+        }
+      },
+      {
+        "id": "epyc-7513-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 38,
+        "price": 800,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-budget/16gb-india-budget-mc-bedrock/checkout?plan=171",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/16gb-india-budget-mc-bedrock/checkout?plan=172",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/16gb-india-budget-mc-bedrock/checkout?plan=173",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-budget/16gb-india-budget-mc-bedrock/checkout?plan=174"
+        }
+      },
+      {
+        "id": "epyc-7513-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 54,
+        "price": 1099,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-budget/24gb-budget-mc-bedrock/checkout?plan=175",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/24gb-budget-mc-bedrock/checkout?plan=176",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/24gb-budget-mc-bedrock/checkout?plan=177",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-budget/24gb-budget-mc-bedrock/checkout?plan=178"
+        }
+      },
+      {
+        "id": "epyc-7513-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 700,
+        "ram": 32,
+        "nvme": 70,
+        "price": 1499,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-budget/bedrock-32gb-india-budget-mc/checkout?plan=179",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/bedrock-32gb-india-budget-mc/checkout?plan=180",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-budget/bedrock-32gb-india-budget-mc/checkout?plan=181",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-budget/bedrock-32gb-india-budget-mc/checkout?plan=182"
+        }
+      }
+    ],
+    "epyc-9474f": [
+      {
+        "id": "epyc-9474f-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 3,
+        "price": 65,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/bedrock-1gb-advance/checkout?plan=182",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/bedrock-1gb-advance/checkout?plan=183",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/bedrock-1gb-advance/checkout?plan=184",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/bedrock-1gb-advance/checkout?plan=185"
+        }
+      },
+      {
+        "id": "epyc-9474f-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 12,
+        "price": 130,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/bedrock-2gb-advance/checkout?plan=183",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/bedrock-2gb-advance/checkout?plan=184",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/bedrock-2gb-advance/checkout?plan=185",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/bedrock-2gb-advance/checkout?plan=186"
+        }
+      },
+      {
+        "id": "epyc-9474f-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 16,
+        "price": 260,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/bedrock-4gb-advance/checkout?plan=187",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/bedrock-4gb-advance/checkout?plan=188",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/bedrock-4gb-advance/checkout?plan=189",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/bedrock-4gb-advance/checkout?plan=190"
+        }
+      },
+      {
+        "id": "epyc-9474f-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 250,
+        "ram": 6,
+        "nvme": 20,
+        "price": 390,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/6gb-advance-bedrock/checkout?plan=191",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/6gb-advance-bedrock/checkout?plan=192",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/6gb-advance-bedrock/checkout?plan=193",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/6gb-advance-bedrock/checkout?plan=194"
+        }
+      },
+      {
+        "id": "epyc-9474f-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 300,
+        "ram": 8,
+        "nvme": 24,
+        "price": 520,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/8gb-advance-bedrock/checkout?plan=195",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/8gb-advance-bedrock/checkout?plan=196",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/8gb-advance-bedrock/checkout?plan=197",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/8gb-advance-bedrock/checkout?plan=198"
+        }
+      },
+      {
+        "id": "epyc-9474f-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 32,
+        "price": 780,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/12gb-advance-bedrock/checkout?plan=199",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/12gb-advance-bedrock/checkout?plan=200",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/12gb-advance-bedrock/checkout?plan=201",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/12gb-advance-bedrock/checkout?plan=202"
+        }
+      },
+      {
+        "id": "epyc-9474f-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 40,
+        "price": 999,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/16gb-advance-bedrock/checkout?plan=203",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/16gb-advance-bedrock/checkout?plan=204",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/16gb-advance-bedrock/checkout?plan=205",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/16gb-advance-bedrock/checkout?plan=206"
+        }
+      },
+      {
+        "id": "epyc-9474f-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 56,
+        "price": 1499,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/24gb-advance-bedrock-mc/checkout?plan=207",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/24gb-advance-bedrock-mc/checkout?plan=208",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/24gb-advance-bedrock-mc/checkout?plan=209",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/24gb-advance-bedrock-mc/checkout?plan=210"
+        }
+      },
+      {
+        "id": "epyc-9474f-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 700,
+        "ram": 32,
+        "nvme": 72,
+        "price": 1999,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/32gb-advance-bedrock/checkout?plan=211",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/32gb-advance-bedrock/checkout?plan=212",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/32gb-advance-bedrock/checkout?plan=213",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-advance-mc/32gb-advance-bedrock/checkout?plan=214"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 0,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/tickets",
+          "threeMonths": "https://billing.caspian.host/tickets",
+          "sixMonths": "https://billing.caspian.host/tickets",
+          "yearly": "https://billing.caspian.host/tickets"
+        }
+      }
+    ],
+    "ryzen-5800x": [
+      {
+        "id": "ryzen-5800x-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 100,
+        "ram": 1,
+        "nvme": 4,
+        "price": 80,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/1gb-premium-bedrock/checkout?plan=214",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/1gb-premium-bedrock/checkout?plan=215",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/1gb-premium-bedrock/checkout?plan=216",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/1gb-premium-bedrock/checkout?plan=217"
+        }
+      },
+      {
+        "id": "ryzen-5800x-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 16,
+        "price": 160,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/2gb-premium-bedrock/checkout?plan=215",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/2gb-premium-bedrock/checkout?plan=216",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/2gb-premium-bedrock/checkout?plan=217",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/2gb-premium-bedrock/checkout?plan=218"
+        }
+      },
+      {
+        "id": "ryzen-5800x-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 20,
+        "price": 320,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/4gb-premium-bedrock/checkout?plan=219",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/4gb-premium-bedrock/checkout?plan=220",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/4gb-premium-bedrock/checkout?plan=221",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/4gb-premium-bedrock/checkout?plan=222"
+        }
+      },
+      {
+        "id": "ryzen-5800x-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 250,
+        "ram": 6,
+        "nvme": 24,
+        "price": 480,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/6gb-premium-bedrock/checkout?plan=223",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/6gb-premium-bedrock/checkout?plan=224",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/6gb-premium-bedrock/checkout?plan=225",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/6gb-premium-bedrock/checkout?plan=226"
+        }
+      },
+      {
+        "id": "ryzen-5800x-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 300,
+        "ram": 8,
+        "nvme": 28,
+        "price": 640,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/8gb-premium-bedrock/checkout?plan=227",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/8gb-premium-bedrock/checkout?plan=228",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/8gb-premium-bedrock/checkout?plan=229",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/8gb-premium-bedrock/checkout?plan=230"
+        }
+      },
+      {
+        "id": "ryzen-5800x-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 36,
+        "price": 960,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/12gb-premium-bedrock/checkout?plan=231",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/12gb-premium-bedrock/checkout?plan=232",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/12gb-premium-bedrock/checkout?plan=233",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/12gb-premium-bedrock/checkout?plan=234"
+        }
+      },
+      {
+        "id": "ryzen-5800x-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 44,
+        "price": 1199,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/16gb-premium-bedrock/checkout?plan=235",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/16gb-premium-bedrock/checkout?plan=236",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/16gb-premium-bedrock/checkout?plan=237",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/16gb-premium-bedrock/checkout?plan=238"
+        }
+      },
+      {
+        "id": "ryzen-5800x-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 60,
+        "price": 1920,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/24gb-premium-bedrock/checkout?plan=239",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/24gb-premium-bedrock/checkout?plan=240",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/24gb-premium-bedrock/checkout?plan=241",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/24gb-premium-bedrock/checkout?plan=242"
+        }
+      },
+      {
+        "id": "ryzen-5800x-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 800,
+        "ram": 32,
+        "nvme": 76,
+        "price": 2499,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/32gb-premium-bedrock/checkout?plan=243",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/32gb-premium-bedrock/checkout?plan=244",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/32gb-premium-bedrock/checkout?plan=245",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-premium-mc/32gb-premium-bedrock/checkout?plan=246"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 300,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/tickets",
+          "threeMonths": "https://billing.caspian.host/tickets",
+          "sixMonths": "https://billing.caspian.host/tickets",
+          "yearly": "https://billing.caspian.host/tickets"
+        }
+      }
+    ],
+    "ryzen-7900x": [
+      {
+        "id": "ryzen-7900x-1gb",
+        "name": "1GB Plan",
+        "cpuPercent": 50,
+        "ram": 1,
+        "nvme": 4,
+        "price": 110,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/1gb-ultra-bedrock/checkout?plan=250",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/1gb-ultra-bedrock/checkout?plan=251",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/1gb-ultra-bedrock/checkout?plan=252",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/1gb-ultra-bedrock/checkout?plan=253"
+        }
+      },
+      {
+        "id": "ryzen-7900x-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 100,
+        "ram": 2,
+        "nvme": 20,
+        "price": 220,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/2gb-ultra-bedrock/checkout?plan=251",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/2gb-ultra-bedrock/checkout?plan=252",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/2gb-ultra-bedrock/checkout?plan=253",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/2gb-ultra-bedrock/checkout?plan=254"
+        }
+      },
+      {
+        "id": "ryzen-7900x-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 24,
+        "price": 440,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/4gb-ultra-bedrock/checkout?plan=251",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/4gb-ultra-bedrock/checkout?plan=252",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/4gb-ultra-bedrock/checkout?plan=253",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/4gb-ultra-bedrock/checkout?plan=254"
+        }
+      },
+      {
+        "id": "ryzen-7900x-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 28,
+        "price": 660,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/6gb-ultra-bedrock/checkout?plan=255",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/6gb-ultra-bedrock/checkout?plan=256",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/6gb-ultra-bedrock/checkout?plan=257",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/6gb-ultra-bedrock/checkout?plan=258"
+        }
+      },
+      {
+        "id": "ryzen-7900x-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 300,
+        "ram": 8,
+        "nvme": 32,
+        "price": 880,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/8gb-ultra-bedrock/checkout?plan=259",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/8gb-ultra-bedrock/checkout?plan=260",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/8gb-ultra-bedrock/checkout?plan=261",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/8gb-ultra-bedrock/checkout?plan=262"
+        }
+      },
+      {
+        "id": "ryzen-7900x-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 400,
+        "ram": 12,
+        "nvme": 40,
+        "price": 1320,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/12gb-ultra-bedrock/checkout?plan=263",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/12gb-ultra-bedrock/checkout?plan=264",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/12gb-ultra-bedrock/checkout?plan=265",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/12gb-ultra-bedrock/checkout?plan=266"
+        }
+      },
+      {
+        "id": "ryzen-7900x-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 500,
+        "ram": 16,
+        "nvme": 48,
+        "price": 1760,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/16gb-ultra-bedrock/checkout?plan=267",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/16gb-ultra-bedrock/checkout?plan=268",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/16gb-ultra-bedrock/checkout?plan=269",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/16gb-ultra-bedrock/checkout?plan=270"
+        }
+      },
+      {
+        "id": "ryzen-7900x-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 600,
+        "ram": 24,
+        "nvme": 64,
+        "price": 2640,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/24gb-ultra-bedrock/checkout?plan=272",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/24gb-ultra-bedrock/checkout?plan=273",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/24gb-ultra-bedrock/checkout?plan=274",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/24gb-ultra-bedrock/checkout?plan=274"
+        }
+      },
+      {
+        "id": "ryzen-7900x-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 800,
+        "ram": 32,
+        "nvme": 80,
+        "price": 3520,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/32gb-ultra-bedrock/checkout?plan=276",
+          "threeMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/32gb-ultra-bedrock/checkout?plan=277",
+          "sixMonths": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/32gb-ultra-bedrock/checkout?plan=278",
+          "yearly": "https://billing.caspian.host/products/minecraft-bedrock-ultra-mc/32gb-ultra-bedrock/checkout?plan=279"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 0,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/tickets",
+          "threeMonths": "https://billing.caspian.host/tickets",
+          "sixMonths": "https://billing.caspian.host/tickets",
+          "yearly": "https://billing.caspian.host/tickets"
+        }
+      }
+    ],
+    "i7-7700k": [
+      {
+        "id": "i7-7700k-2gb",
+        "name": "2GB Plan",
+        "cpuPercent": 150,
+        "ram": 2,
+        "nvme": 4,
+        "price": 130,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-2gb-advance-java/checkout?plan=404",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-2gb-advance-java/checkout?plan=405",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-2gb-advance-java/checkout?plan=406",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-2gb-advance-java/checkout?plan=407"
+        }
+      },
+      {
+        "id": "i7-7700k-4gb",
+        "name": "4GB Plan",
+        "cpuPercent": 200,
+        "ram": 4,
+        "nvme": 8,
+        "price": 260,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-4gb-advance-java/checkout?plan=408",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-4gb-advance-java/checkout?plan=409",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-4gb-advance-java/checkout?plan=410",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-4gb-advance-java/checkout?plan=411"
+        }
+      },
+      {
+        "id": "i7-7700k-6gb",
+        "name": "6GB Plan",
+        "cpuPercent": 200,
+        "ram": 6,
+        "nvme": 12,
+        "price": 390,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-6gb-advance-java/checkout?plan=412",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-6gb-advance-java/checkout?plan=413",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-6gb-advance-java/checkout?plan=414",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-6gb-advance-java/checkout?plan=415"
+        }
+      },
+      {
+        "id": "i7-7700k-8gb",
+        "name": "8GB Plan",
+        "cpuPercent": 250,
+        "ram": 8,
+        "nvme": 16,
+        "price": 520,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-8gb-advance-java/checkout?plan=416",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-8gb-advance-java/checkout?plan=417",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-8gb-advance-java/checkout?plan=418",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-8gb-advance-java/checkout?plan=419"
+        }
+      },
+      {
+        "id": "i7-7700k-12gb",
+        "name": "12GB Plan",
+        "cpuPercent": 350,
+        "ram": 12,
+        "nvme": 24,
+        "price": 780,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-12gb-advance-java/checkout?plan=420",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-12gb-advance-java/checkout?plan=421",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-12gb-advance-java/checkout?plan=422",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-12gb-advance-java/checkout?plan=423"
+        }
+      },
+      {
+        "id": "i7-7700k-16gb",
+        "name": "16GB Plan",
+        "cpuPercent": 400,
+        "ram": 16,
+        "nvme": 32,
+        "price": 1040,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-16gb-advance-java/checkout?plan=424",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-16gb-advance-java/checkout?plan=425",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-16gb-advance-java/checkout?plan=426",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-16gb-advance-java/checkout?plan=427"
+        }
+      },
+      {
+        "id": "i7-7700k-24gb",
+        "name": "24GB Plan",
+        "cpuPercent": 500,
+        "ram": 24,
+        "nvme": 48,
+        "price": 1560,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-24gb-advance-javaa-mc/checkout?plan=428",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-24gb-advance-javaa-mc/checkout?plan=429",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-24gb-advance-javaa-mc/checkout?plan=430",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-24gb-advance-javaa-mc/checkout?plan=431"
+        }
+      },
+      {
+        "id": "i7-7700k-32gb",
+        "name": "32GB Plan",
+        "cpuPercent": 200,
+        "ram": 32,
+        "nvme": 64,
+        "price": 2080,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-32gb-advance-java/checkout?plan=432",
+          "threeMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-32gb-advance-java/checkout?plan=433",
+          "sixMonths": "https://billing.caspian.host/products/singapore-advance-mc/singapore-32gb-advance-java/checkout?plan=434",
+          "yearly": "https://billing.caspian.host/products/singapore-advance-mc/singapore-32gb-advance-java/checkout?plan=435"
+        }
+      },
+      {
+        "id": "for custom plan contact us",
+        "name": "For custom plan contact us",
+        "cpuPercent": 200,
+        "ram": 0,
+        "nvme": 0,
+        "price": 0,
+        "currency": "INR",
+        "checkout": {
+          "monthly": "https://billing.lunarhost.io/minecraft-java/i7-7700k/24gb",
+          "threeMonths": "https://billing.lunarhost.io/minecraft-java/i7-7700k/24gb-3months",
+          "sixMonths": "https://billing.lunarhost.io/minecraft-java/i7-7700k/24gb-6months",
+          "yearly": "https://billing.lunarhost.io/minecraft-java/i7-7700k/24gb-yearly"
+        }
+      }
+    ]
+  }
+}
